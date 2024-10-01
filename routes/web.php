@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\AuthController;
+use App\Http\Controllers\MenuPageController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,6 +15,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('root');
-});
+Route::get('/', fn() => redirect()->route('loginPage'))
+    ->name('landing');
+Route::get('/login', [AuthController::class, 'createLoginForm'])
+    ->name('loginPage');
+Route::post('/login', [AuthController::class, 'login'])
+    ->name('loginAuth');
+Route::get('/creator', [MenuPageController::class, 'create'])
+    ->name('menuPage');

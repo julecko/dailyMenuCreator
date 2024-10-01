@@ -7,6 +7,6 @@
         <title>Menu Creator</title>
     </head>
     <body class="antialiased">
-        Hello
+        How are you today?
     </body>
 </html>

@@ -5,7 +5,10 @@ mix.js('resources/js/app.js', 'public/js')
     .postCss('resources/css/app.css', 'public/css', [
         require('tailwindcss'),
         require('autoprefixer'),
+        require('cssnano')({ preset: 'default' }),
     ])
+    .sass('resources/sass/app.scss', 'public/css');
+
 if (mix.inProduction()) {
     mix.version();
 } else {
