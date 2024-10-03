@@ -2,6 +2,7 @@ const mix = require('laravel-mix');
 const BrowserSyncPlugin = require('browser-sync-webpack-plugin');
 
 mix.js('resources/js/app.js', 'public/js')
+    .copy('resources/assets', 'public/assets')
     .postCss('resources/css/app.css', 'public/css', [
         require('tailwindcss'),
         require('autoprefixer'),
@@ -22,6 +23,8 @@ if (mix.inProduction()) {
                     'public/js/**/*.js',
                     'public/css/**/*.css',
                 ],
+                notify: false,
+                open: false,
                 reloadDelay: 1000, // Optional: adjust for slower reloads
             })
         ],

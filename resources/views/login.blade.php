@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="{{ mix('css/app.css') }}" rel="stylesheet">
     <title>Menu Creator</title>
-
 </head>
 <body class="flex w-full h-full bg-gray-700 items-center justify-center">
     <form id="loginBox" class="gap-1" method="POST" action="{{ route('loginAuth') }}">

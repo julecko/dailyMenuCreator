@@ -1,0 +1,9 @@
+.navItem {
+    @apply flex text-center items-center rounded-2xl hover:bg-gray-400 font-bold;
+    padding: 0 40px;
+    transition: background-color 0.3s ease;
+}
+.verticalLine {
+    @apply h-full bg-gray-300;
+    width: 1px;
+}

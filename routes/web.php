@@ -21,5 +21,9 @@ Route::get('/login', [AuthController::class, 'createLoginForm'])
     ->name('loginPage');
 Route::post('/login', [AuthController::class, 'login'])
     ->name('loginAuth');
-Route::get('/creator', [MenuPageController::class, 'create'])
+Route::get('/menu', [MenuPageController::class, 'create'])
     ->name('menuPage');
+Route::get('/edit', fn()=> "Edit page")
+    ->name('editPage');
+Route::get('/about', fn()=> "About page")
+    ->name('aboutPage');
