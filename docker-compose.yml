@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+    mysql:
+        image: mysql:latest
+        restart: always
+        environment:
+            MYSQL_ROOT_PASSWORD: ${DB_PASSWORD}      # Set root password
+            MYSQL_DATABASE: ${DB_DATABASE}            # Database name
+            MYSQL_USER: ${DB_USERNAME}                # Custom username
+            MYSQL_PASSWORD: ${DB_PASSWORD}             # Custom user password
+        ports:
+            - "3306:3306"
+        volumes:
+            - ./storage/data:/var/lib/mysql/data                # Persistent storage for MySQL data
