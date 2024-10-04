@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\AuthController;
+use App\Http\Controllers\CalendarController;
 use App\Http\Controllers\MenuPageController;
 use Illuminate\Support\Facades\Route;
 
@@ -27,3 +28,5 @@ Route::get('/edit', fn()=> "Edit page")
     ->name('editPage');
 Route::get('/about', fn()=> "About page")
     ->name('aboutPage');
+Route::get('/test', [CalendarController::class, 'create'])
+    ->name('test');
