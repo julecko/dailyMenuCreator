@@ -1,0 +1,23 @@
+@use 'variables' as *;
+
+.navItem {
+    @apply flex text-center items-center font-bold text-white;
+    color: $text-color;
+    height: 40px;
+    padding: 0 35px;
+    margin: 5px;
+    transition: background-color 0.3s ease;
+    border-radius: 8px;
+}
+.navItem:hover {
+    color: $background-color;
+    background: $text-color;
+}
+.navPanel {
+    @apply flex justify-end w-full items-center;
+    background: $background-color;
+}
+.verticalLine {
+    @apply h-full bg-gray-300;
+    width: 1px;
+}

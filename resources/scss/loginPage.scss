@@ -1,8 +1,12 @@
+@use 'variables' as *;
 #loginBox {
     @apply bg-white p-12;
     width: 400px;
     height: 400px;
-    box-shadow: 0 0 60px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
+}
+body {
+    background-color: $background-color;
 }
 .loginInput {
     @apply
@@ -24,4 +28,7 @@
     width: 24px;
     top: 50%;
     transform: translateY(-50%);
+}
+#password{
+    letter-spacing: 1px;
 }

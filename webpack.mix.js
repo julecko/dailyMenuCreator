@@ -8,7 +8,7 @@ mix.js('resources/js/app.js', 'public/js')
         require('autoprefixer'),
         require('cssnano')({ preset: 'default' }),
     ])
-    .sass('resources/sass/app.scss', 'public/css');
+    .sass('resources/scss/app.scss', 'public/css');
 
 if (mix.inProduction()) {
     mix.version();
