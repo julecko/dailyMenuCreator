@@ -1,10 +1,10 @@
 * text=auto
 
-*.blade.php linguist-language=Blade
-*.blade.php diff=php
-*.css linguist-language=CSS
-*.html linguist-language=HTML
-*.php linguist-language=PHP
+*.blade.php diff=html
+*.css diff=css
+*.html diff=html
+*.md diff=markdown
+*.php diff=php
 *.json linguist-language=ignore
 *.md linguist-language=ignore
 *.lock linguist-language=ignore
