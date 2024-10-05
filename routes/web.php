@@ -28,5 +28,3 @@ Route::get('/edit', fn()=> "Edit page")
     ->name('editPage');
 Route::get('/about', fn()=> "About page")
     ->name('aboutPage');
-Route::get('/test', [CalendarController::class, 'create'])
-    ->name('test');

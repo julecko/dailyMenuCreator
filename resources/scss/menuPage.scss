@@ -10,14 +10,93 @@
     border-radius: 8px;
 }
 .navItem:hover {
-    color: $background-color;
-    background: $text-color;
+    background: $orange-color;
 }
 .navPanel {
-    @apply flex justify-end w-full items-center;
+    @apply flex justify-start flex-1 items-center;
     background: $background-color;
 }
+#title {
+    @apply flex font-bold text-center items-center;
+    margin-left: 16px;
+    margin-right: 40px;
+    font-size: 30px;
+}
 .verticalLine {
-    @apply h-full bg-gray-300;
+    @apply h-full;
+    background-color: $gray-light-color;
     width: 1px;
+}
+#content {
+    @apply flex h-full mx-4;
+}
+#foodList {
+    display: flex;
+    flex: 1;
+    padding-top: 30px;
+}
+#sideBar {
+    display: flex;
+    width: 400px;
+    border-left: 1px solid $gray-light-color;
+    padding-top: 30px;
+}
+#sideBar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#calendar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 316px;
+}
+#monthSelect {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+#days {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 5px;
+    background: $orange-light-color;
+    border-radius: 15px;
+}
+.day{
+    font-weight: 700;
+    text-align: center;
+    color: $text-color;
+}
+.week > .dayWrapper:hover{
+    background-color: $orange-light-color;
+    transition: background-color 0.3s ease-out;
+    border-radius: 9999px;
+}
+.week > .dayWrapper{
+    height: 30px;
+}
+.dayWrapper{
+    width: 30px;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    flex-shrink: 0;
+}
+#weeks {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+.week {
+    width: fit-content;
+    display: flex;
+    gap: 15px;
+    margin: 0 10px;
 }

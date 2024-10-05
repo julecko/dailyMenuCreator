@@ -5,7 +5,10 @@
 *.html diff=html
 *.md diff=markdown
 *.php diff=php
+*.scss diff=css
+
 *.blade.php linguist-language=Blade
+*.scss linguist-language=SCSS
 *.json linguist-language=ignore
 *.md linguist-language=ignore
 *.lock linguist-language=ignore
