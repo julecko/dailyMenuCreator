@@ -17,4 +17,6 @@ yarn-error.log
 storage/database.sqlite
 storage/*.pem
 storage/data
-bootstrap/cache/
+bootstrap/cache//public/js/
+/public/css/
+/public/assets/
