@@ -5,6 +5,7 @@
 *.html diff=html
 *.md diff=markdown
 *.php diff=php
+*.blade.php linguist-language=Blade
 *.json linguist-language=ignore
 *.md linguist-language=ignore
 *.lock linguist-language=ignore
