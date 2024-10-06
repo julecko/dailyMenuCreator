@@ -14,16 +14,6 @@
 *.lock linguist-language=ignore
 
 #Ignore everything not written be me, mostly, to have more accurate stats
-/.github linguist-ignore
-CHANGELOG.md linguist-ignore
-.styleci.yml linguist-ignore
-artisan linguist-ignore
-config/* linguist-ignore
-app/Exceptions/* linguist-ignore
-app/Providers/* linguist-ignore
-app/Console/* linguist-ignore
-app/Http/Middleware/* linguist-ignore
-database/* linguist-ignore
-app/Models/* linguist-ignore
-bootstrap/* linguist-ignore
-tests/* linguist-ignore
+/.github export-ignore
+CHANGELOG.md export-ignore
+.styleci.yml export-ignore
