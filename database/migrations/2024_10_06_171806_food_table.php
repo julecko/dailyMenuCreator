@@ -15,10 +15,10 @@ return new class extends Migration
             $table->id();
             $table->string('name'); //Hranolky, ...
             $table->integer('type'); //Soup, main meal
-            $table->integer('size'); //250 Grams OR 0.4l based on type
+            $table->string('size'); //250 Grams OR 0.4l based on type
             $table->json('allergens')->nullable(); //1, 2, 3
-            $table->integer('size-variant'); //M, XL, 2XL
-            $table->integer('price');
+            $table->string('size-variant')->nullable(); //M, XL, 2XL
+            $table->integer('price')->nullable();
             $table->integer('frequency')->default(0);
             $table->timestamps();
         });
