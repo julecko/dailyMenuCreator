@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Log;
+use App\Models\DailyMenu;
 
 class CalendarController extends Controller
 {
@@ -27,14 +28,15 @@ class CalendarController extends Controller
             $week = [];
             for ($j = 0; $j < 7; $j++) {
                 $currentDay = (clone $firstDayOfWeek)->modify("+$j days");
-                $dateString = $currentDay->format('Y-m-d');
+                $dateString = (clone $currentDay)->format('Y-m-d');
 
                 $isInCurrentMonth = $currentDay->format('m') == $month;
+                $hasMenu = DailyMenu::dateExists($dateString);
 
                 $week[] = [
-                    'date' => $currentDay->format('j'),
-                    'in_current_month' => $isInCurrentMonth
-                    //TODO Later add Connection to database
+                    'date' => $dateString,
+                    'in_current_month' => $isInCurrentMonth,
+                    'exists' => $hasMenu
                 ];
             }
             $weeks[] = $week;

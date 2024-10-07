@@ -89,15 +89,22 @@ function updateCalendar(year, month) {
                 week.forEach(day => {
                     const dayButton = document.createElement('button');
                     dayButton.classList.add('dayWrapper');
+                    dayButton.addEventListener('click', function(){
+                        const url = new URL(window.location.href);
+                        url.searchParams.set('date', day.date);
+                        window.history.pushState({}, '', url);
+                    })
 
                     const dayParagraph = document.createElement('p');
                     dayParagraph.classList.add('day', 'calendarDay');
-                    dayParagraph.textContent = day.date;
+                    dayParagraph.textContent = String(new Date(day.date).getDate());
 
                     if (!day.in_current_month) {
                         dayParagraph.style.opacity = '0.5';
                     }
-
+                    if (day.exists){
+                        dayParagraph.style.color = 'red';
+                    }
                     dayButton.appendChild(dayParagraph);
                     weekDiv.appendChild(dayButton);
                 });

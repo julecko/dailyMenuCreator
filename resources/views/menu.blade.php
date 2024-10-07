@@ -13,7 +13,7 @@
             <div id="foodList"> <!-- Here will be quick heading of Menu Creator and list of meals -->
 
             </div>
-            <div id="sideBar"> <!-- Here will be calendar with simple add food buttons -->
+            <div id="sideBar">
                 <div id="calendar">
                     <div id="monthSelect">
                         <button id="leftArrow">
@@ -48,7 +48,7 @@
                         </div>
                     </div>
                     <div id="weeks">
-                        
+
                     </div>
                 </div>
             </div>
