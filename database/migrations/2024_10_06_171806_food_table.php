@@ -17,8 +17,8 @@ return new class extends Migration
             $table->integer('type'); //Soup, main meal
             $table->string('size'); //250 Grams OR 0.4l based on type
             $table->json('allergens')->nullable(); //1, 2, 3
-            $table->string('size-variant')->nullable(); //M, XL, 2XL
-            $table->integer('price')->nullable();
+            $table->string('size-variant')->default('A'); //M, XL, 2XL
+            $table->float('price')->nullable();
             $table->integer('frequency')->default(0);
             $table->timestamps();
         });

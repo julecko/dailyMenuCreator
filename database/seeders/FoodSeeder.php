@@ -12,37 +12,41 @@ class FoodSeeder extends Seeder
      */
     public function run()
     {
-        $csvFile = database_path('csv/foods.csv');
-        $data = array_map('str_getcsv', file($csvFile));
+        $csvFile = database_path('../storage/foods.csv');
+        $fileHandle = fopen($csvFile, 'r');
 
-        // Get the header row
-        $header = array_shift($data);
+        $header = fgetcsv($fileHandle, 1000, ';');
 
-        foreach ($data as $row) {
-            // Combine header and row values into an associative array
+        while (($row = fgetcsv($fileHandle, 1000, ';')) !== false) {
             $foodData = array_combine($header, $row);
 
             // Insert data into the foods table
-            DB::table('foods')->insert([
-                'name' => $foodData['name'],
-                'type' => $this->getTypeId($foodData['type']),
-                'size' => $foodData['size'],
-                'allergens' => $foodData['allergens'] ? json_encode(explode(',', $foodData['allergens'])) : null,
-                'size-variant' => $foodData['size_variant'],
-                'price' => $this->parsePrice($foodData['price']),
-                'frequency' => $foodData['frequency'] ?: 0,
-                'created_at' => now(),
-                'updated_at' => now(),
-            ]);
+            try {
+                DB::table('foods')->insert([
+                    'name' => $foodData['name'],
+                    'type' => $this->getTypeId(strtolower($foodData['type'])),
+                    'size' => $foodData['size'],
+                    'allergens' => $foodData['allergens'] ? json_encode(explode(',', $foodData['allergens'])) : null,
+                    'size-variant' => $foodData['size_variant'],
+                    'price' => $foodData['price'] !== "" ? $this->parsePrice($foodData['price']) : null,
+                    'frequency' => $foodData['frequency'] ?: 0,
+                    'created_at' => now(),
+                    'updated_at' => now(),
+                ]);
+            }catch(\Throwable $e){
+                echo $e;
+                dd($row);
+            }
         }
+        fclose($fileHandle);
     }
 
     private function getTypeId($typeName)
     {
         // Map the food type names to their corresponding IDs
         $types = [
-            'Polievka' => 1,
-            'Hlavné jedlo' => 2,
+            'polievka' => 1,
+            'hlavné jedlo' => 2,
             // Add more mappings as needed
         ];
 
@@ -51,7 +55,6 @@ class FoodSeeder extends Seeder
 
     private function parsePrice($price)
     {
-        // Convert price string to integer (in cents, for example)
-        return (int)(str_replace(['€', ' '], '', $price) * 100);
+        return (float)(str_replace(['€', ' '], '', $price));
     }
 }

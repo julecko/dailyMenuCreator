@@ -12,6 +12,7 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
+        $this->call(FoodSeeder::class); //Dont remove in production
         $this->call(DailyMenuSeeder::class); //TODO Remove in production
     }
 }
