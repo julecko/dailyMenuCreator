@@ -4,6 +4,7 @@ namespace Database\Factories;
 
 use App\Models\DailyMenu;
 use Illuminate\Database\Eloquent\Factories\Factory;
+use App\Models\Food;
 
 /**
  * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\Model>
@@ -29,9 +30,11 @@ class DailyMenuFactory extends Factory
 
         self::$dates[] = $randomDate->format('Y-m-d');
 
-        $uniqueNumbers = range(1, 100);
-        shuffle($uniqueNumbers);
-        $foods = array_slice($uniqueNumbers, 0, 5);
+        $soups = Food::where('type', '1')->inRandomOrder()->take(2)->pluck('id')->toArray();
+
+        $mainFoods = Food::where('type', '2')->inRandomOrder()->take(8)->pluck('id')->toArray();
+
+        $foods = array_merge($soups, $mainFoods);
 
         return [
             'menu_date' => $randomDate,

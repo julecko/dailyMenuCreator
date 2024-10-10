@@ -2,7 +2,11 @@ var currentYear;
 var currentMonth;
 
 document.addEventListener("DOMContentLoaded", function(){
-    const currentDate = new Date();
+    const params = new URLSearchParams(window.location.search);
+    const dateParam = params.get('date');
+
+    const currentDate = dateParam ? new Date(dateParam) : new Date();
+
     currentYear = currentDate.getFullYear();
     currentMonth = currentDate.getMonth() + 1;
     updateCalendar(currentYear, currentMonth);
@@ -93,6 +97,7 @@ function updateCalendar(year, month) {
                         const url = new URL(window.location.href);
                         url.searchParams.set('date', day.date);
                         window.history.pushState({}, '', url);
+                        window.location.reload();
                     })
 
                     const dayParagraph = document.createElement('p');

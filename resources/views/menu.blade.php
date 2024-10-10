@@ -1,17 +1,40 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" style="height: 100%;overflow: hidden">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" style="height: 100%">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="{{ mix('css/app.css') }}" rel="stylesheet">
         <script src="{{ mix('js/calendar.js') }}" defer></script>
-        <title>Menu Creator</title>
+        <title>{{ $title ?? 'Menu Creator' }}</title>
     </head>
-    <body class="h-full">
+    <body class="h-full flex flex-col">
         <x-header></x-header>
         <div id="content">
-            <div id="foodList"> <!-- Here will be quick heading of Menu Creator and list of meals -->
-
+            <div id="mainContent">
+                <h2 class="text-2xl font-bold">Menu na {{ $currentDate ?? "day unknown" }}</h2>
+                <div id="foodList">
+                    @if ($foods)
+                        @for($i=0;$i<count($foods);$i++)
+                        <div class="food">
+                            <div class="left-side">
+                                <p class="main-text">{{ $foods[$i]['name'] }}</p>
+                                <p class="side-text">{{ $foods[$i]['size'] }}</p>
+                            </div>
+                            <div class="right-side">
+                                <p class="main-text">
+                                    @if($foods[$i]['price'])
+                                        {{ $foods[$i]['price'] }} €
+                                    @endif</p>
+                            </div>
+                        </div>
+                            @if ($i < count($foods) - 1)
+                                <hr class="border-t-1 border-gray-300 my-1">
+                            @endif
+                        @endfor
+                    @else
+                        Na tento deň ešte nebolo menu vygenerované
+                    @endif
+                </div>
             </div>
             <div id="sideBar">
                 <div id="calendar">
