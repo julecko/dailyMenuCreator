@@ -27,11 +27,10 @@ class FoodSeeder extends Seeder
                     'type' => $this->getTypeId(strtolower($foodData['type'])),
                     'size' => $foodData['size'],
                     'allergens' => $foodData['allergens'] ? json_encode(explode(',', $foodData['allergens'])) : null,
-                    'size-variant' => $foodData['size_variant'],
+                    'size_variant' => $foodData['size_variant'] ?: 'A',
                     'price' => $foodData['price'] !== "" ? $this->parsePrice($foodData['price']) : null,
                     'frequency' => $foodData['frequency'] ?: 0,
-                    'created_at' => now(),
-                    'updated_at' => now(),
+                    'food_type' =>  str_replace("Bravčové", "bravčove", $foodData['food_type']),
                 ]);
             }catch(\Throwable $e){
                 echo $e;

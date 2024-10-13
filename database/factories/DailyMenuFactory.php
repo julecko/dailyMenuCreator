@@ -21,24 +21,6 @@ class DailyMenuFactory extends Factory
 
     public function definition()
     {
-        $startDate = now()->subMonth();
-        $endDate = now()->addMonth();
 
-        do {
-            $randomDate = $this->faker->dateTimeBetween($startDate, $endDate);
-        } while (in_array($randomDate->format('Y-m-d'), self::$dates));
-
-        self::$dates[] = $randomDate->format('Y-m-d');
-
-        $soups = Food::where('type', '1')->inRandomOrder()->take(2)->pluck('id')->toArray();
-
-        $mainFoods = Food::where('type', '2')->inRandomOrder()->take(8)->pluck('id')->toArray();
-
-        $foods = array_merge($soups, $mainFoods);
-
-        return [
-            'menu_date' => $randomDate,
-            'foods' => json_encode($foods),
-        ];
     }
 }
