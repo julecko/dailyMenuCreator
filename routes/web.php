@@ -1,7 +1,6 @@
 <?php
 
 use App\Http\Controllers\AuthController;
-use App\Http\Controllers\CalendarController;
 use App\Http\Controllers\MenuPageController;
 use Illuminate\Support\Facades\Route;
 

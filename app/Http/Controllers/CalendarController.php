@@ -1,10 +1,8 @@
 <?php
 
 namespace App\Http\Controllers;
-
-use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Log;
 use App\Models\DailyMenu;
+use Illuminate\Http\Request;
 
 class CalendarController extends Controller
 {

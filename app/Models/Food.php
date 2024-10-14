@@ -45,20 +45,24 @@ class Food extends Model
         $mealTypes = ['bravčove', 'kuracie'];
         shuffle($mealTypes);
         $threeVariantsMeals = self::getThreeVariantsMeals($currentDate, $mealTypes[0]);
+        $twoVariantsMeals = self::getTwoVariantsMeals($currentDate, $mealTypes[1]);
         return $threeVariantsMeals;
     }
-
-    /**
-     * @throws FoodException
-     */
-    private static function getThreeVariantsMeals(Carbon $currentDate, string $mealType){
-        $mealWithThreeVariants = self::where('food_type', $mealType)
+    private static function getThreeVariantName(Carbon $currentDate, string $mealType){
+        return self::where('food_type', $mealType)
             ->select('name')
             ->groupBy('name')
             ->whereDate('last_used', '<=', $currentDate->copy()->subDays(30))
             ->havingRaw('COUNT(DISTINCT size_variant) = 3')
             ->inRandomOrder()
             ->first();
+    }
+
+    /**
+     * @throws FoodException
+     */
+    private static function getThreeVariantsMeals(Carbon $currentDate, string $mealType){
+        $mealWithThreeVariants = self::getThreeVariantName($currentDate, $mealType);
         if ($mealWithThreeVariants) {
             $variants = self::where('name', $mealWithThreeVariants->name)
                 ->get();
@@ -70,5 +74,37 @@ class Food extends Model
         } else {
             throw new FoodException('No meal found with exactly 3 size variants.');
         }
+    }
+    /**
+     * @throws FoodException
+     */
+    private static function getTwoVariantsMeals(Carbon $currentDate, string $mealType){
+        $mealWithThreeVariants = self::getThreeVariantName($currentDate, $mealType);
+        if ($mealWithThreeVariants) {
+            $variants = self::where('name', $mealWithThreeVariants->name)
+                ->where('size_variant', '!=', 'XL')
+                ->get();
+            foreach ($variants as $variant) {
+                $variant->last_used = $currentDate->format('Y-m-d');
+                $variant->save();
+            }
+            return $variants;
+        } else {
+            throw new FoodException('No meal found with exactly 2 size variants.');
+        }
+    }
+    private static function getMeatlessMeal(Carbon $currentDate){
+        return self::where('size_variant', 'A')
+            ->where('food_type', 'nemäso')
+            ->whereDate('last_used', '<=', $currentDate->copy()->subDays(30))
+            ->inRandomOrder()
+            ->first();
+    }
+    private static function getNormalMeals(Carbon $currentDate, string $mealType){
+        return self::where('food_type', $mealType)
+            ->where('size_variant', 'A')
+            ->whereDate('last_used', '<=', $currentDate->copy()->subDays(30))
+            ->inRandomOrder()
+            ->first();
     }
 }
