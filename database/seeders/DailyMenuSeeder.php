@@ -2,9 +2,9 @@
 
 namespace Database\Seeders;
 
+use App\Exceptions\FoodException;
 use App\Models\DailyMenu;
 use App\Models\Food;
-use App\Models\FoodException;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
@@ -21,34 +21,40 @@ class DailyMenuSeeder extends Seeder
 
         // Iterate through each day in the date range
         for ($date = $startDate; $date->lte($endDate); $date->addDay()) {
-            if (1 === 1) {
+            if (true) {
                 if (!in_array($date->format('Y-m-d'), self::$dates)) {
                     self::$dates[] = $date->format('Y-m-d');
 
-                    // Randomly select 2 soups and 12 main foods
-                    try{
-                        $soups = Food::getSoups($date);
-                    }catch(FoodException $e){
-                        $soups = [];
-                        echo $e->getMessage();
-                    }
-                    dd(Food::getMeals($date));
-                    $mainFoods = Food::where('type', '2')
-                        ->inRandomOrder()
-                        ->take(12)
-                        ->pluck('id')
-                        ->toArray();
-
-                    // Merge soups and main foods into one array
-                    $foods = array_merge($soups, $mainFoods);
-
-                    // Insert the result into the database
-                    DailyMenu::create([
+                    $foods = Food::generateMenu($date);
+                    $menuData = [
                         'menu_date' => $date,
-                        'foods' => json_encode($foods),
-                    ]);
+                        'soup' => $this->getFoodIds($foods['soup']),
+                        'bouillon' => $this->getFoodIds($foods['bouillon']),
+                        'three_variant_meals' => $this->getFoodIds($foods['threeVariantsMeals'], true),
+                        'two_variant_meals' => $this->getFoodIds($foods['twoVariantsMeals'], true),
+                        'meatless_meal' => $this->getFoodIds($foods['meatLessMeal']),
+                        'cheap_meal' => $this->getFoodIds($foods['cheapMeal']),
+                        'expensive_meal' => $this->getFoodIds($foods['expensiveMeal']),
+                        'default_meals' => $this->getFoodIds($foods['defaultMeals'], true),
+                    ];
+                    $menu = DailyMenu::updateOrCreate(
+                        ['menu_date' => $menuData['menu_date']],
+                        $menuData
+                    );
                 }
             }
         }
+    }
+    private function getFoodIds(array $foodArray, bool $asJson = false)
+    {
+        $ids = array_column($foodArray, 'id');
+
+        if ($asJson && count($ids) > 1) {
+            return json_encode($ids);
+        } elseif (count($ids) === 1) {
+            return (int) $ids[0];
+        }
+
+        return null;
     }
 }

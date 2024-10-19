@@ -14,7 +14,14 @@ return new class extends Migration
         Schema::create('daily_menus', function (Blueprint $table) {
             $table->id();
             $table->date('menu_date');
-            $table->json('foods');
+            $table->integer('soup')->nullable();
+            $table->integer('bouillon')->nullable();
+            $table->json('three_variant_meals')->nullable();
+            $table->json('two_variant_meals')->nullable();
+            $table->integer('meatless_meal')->nullable();
+            $table->integer('cheap_meal')->nullable();
+            $table->integer('expensive_meal')->nullable();
+            $table->json('default_meals')->nullable();
             $table->timestamps();
         });
     }
