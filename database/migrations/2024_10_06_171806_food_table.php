@@ -13,13 +13,15 @@ return new class extends Migration
     {
         Schema::create('foods', function (Blueprint $table) {
             $table->id();
-            $table->string('name'); //Hranolky, ...
+            $table->string('name'); //Kuraci rezen s niecim, ...
             $table->integer('type'); //1 => Soup, 2 => Main Dish, 3 => Chicken 4=> Beef
             $table->string('size'); //250 Grams OR 0.4l based on type
             $table->json('allergens')->nullable(); //1, 2, 3
             $table->string('size_variant')->default('A'); //M, XL, 2XL
-            $table->float('price')->nullable();
-            $table->string('food_type')->nullable();
+            $table->float('price')->nullable(); //5.50€
+            $table->string('meat_type')->nullable(); //Kuracie
+            $table->string('preparation');
+            $table->json('side_dish')->nullable(); //Hranolky
             $table->integer('frequency')->default(0);
             $table->date('last_used')->default('1970-01-01');
         });

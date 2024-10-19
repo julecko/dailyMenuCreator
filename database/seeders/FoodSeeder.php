@@ -20,7 +20,6 @@ class FoodSeeder extends Seeder
         while (($row = fgetcsv($fileHandle, 1000, ';')) !== false) {
             $foodData = array_combine($header, $row);
 
-            // Insert data into the foods table
             try {
                 DB::table('foods')->insert([
                     'name' => $foodData['name'],
@@ -30,7 +29,11 @@ class FoodSeeder extends Seeder
                     'size_variant' => $foodData['size_variant'] ?: 'A',
                     'price' => $foodData['price'] !== "" ? $this->parsePrice($foodData['price']) : null,
                     'frequency' => $foodData['frequency'] ?: 0,
-                    'food_type' =>  str_replace("Bravčové", "bravčove", $foodData['food_type']),
+                    'meat_type' =>  str_replace("Bravčové", "bravčove", $foodData['meat_type']),
+                    'preparation' => $this->getPreparation($foodData['preparation']),
+                    'side_dish' => $sideDishes = $foodData['side_dish1'] || $foodData['side_dish2']
+                                   ? json_encode(array_filter([$foodData['side_dish1'], $foodData['side_dish2']]))
+                                   : null
                 ]);
             }catch(\Throwable $e){
                 echo $e;
@@ -40,7 +43,7 @@ class FoodSeeder extends Seeder
         fclose($fileHandle);
     }
 
-    private function getTypeId($typeName)
+    private function getTypeId(String $typeName)
     {
         // Map the food type names to their corresponding IDs
         $types = [
@@ -51,8 +54,11 @@ class FoodSeeder extends Seeder
 
         return $types[$typeName] ?? null;
     }
+    private function getPreparation(String $preparation){
+        return strtolower($preparation);
+    }
 
-    private function parsePrice($price)
+    private function parsePrice(String $price)
     {
         return (float)(str_replace(['€', ' '], '', $price));
     }
