@@ -37,7 +37,7 @@ class DailyMenuSeeder extends Seeder
                         'expensive_meal' => $this->getFoodIds($foods['expensiveMeal']),
                         'default_meals' => $this->getFoodIds($foods['defaultMeals'], true),
                     ];
-                    $menu = DailyMenu::updateOrCreate(
+                    DailyMenu::updateOrCreate(
                         ['menu_date' => $menuData['menu_date']],
                         $menuData
                     );
