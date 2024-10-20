@@ -21,7 +21,7 @@ class DailyMenuSeeder extends Seeder
 
         // Iterate through each day in the date range
         for ($date = $startDate; $date->lte($endDate); $date->addDay()) {
-            if (true) {
+            if (random_int(0, 1)===1) {
                 if (!in_array($date->format('Y-m-d'), self::$dates)) {
                     self::$dates[] = $date->format('Y-m-d');
 

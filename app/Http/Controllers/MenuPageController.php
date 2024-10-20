@@ -19,12 +19,13 @@ class MenuPageController extends Controller
         }else{
             $foods = null;
         }
-        dd($foods);
         return view('menu',
             ['currentDate' => $currentDate->format('j.n.Y'),
              'foods' => $foods]);
     }
     private function getFoods($currentMenu){
+        $sizeOrder = ['A', 'XL', '2X'];
+
         $formattedMeals = [
             'soup' => [],
             'bouillon' => [],
@@ -66,6 +67,13 @@ class MenuPageController extends Controller
             if ($formattedMeal) {
                 $formattedMeals['defaultMeals'][] = $formattedMeal;
             }
+        }
+        foreach ($formattedMeals as $key => $meals) {
+            usort($formattedMeals[$key], function ($a, $b) use ($sizeOrder) {
+                $posA = array_search($a['size_variant'], $sizeOrder);
+                $posB = array_search($b['size_variant'], $sizeOrder);
+                return $posA <=> $posB;
+            });
         }
         return $formattedMeals;
     }

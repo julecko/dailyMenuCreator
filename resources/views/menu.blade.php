@@ -11,26 +11,32 @@
         <x-header></x-header>
         <div id="content">
             <div id="mainContent">
-                <h2 class="text-2xl font-bold">Menu na {{ $currentDate ?? "day unknown" }}</h2>
+                <h2 class="text-3xl font-bold">Menu na {{ $currentDate ?? "day unknown" }}</h2>
                 <div id="foodList">
                     @if ($foods)
-                        @for($i=0;$i<count($foods);$i++)
-                        <div class="food">
-                            <div class="left-side">
-                                <p class="main-text">{{ $foods[$i]['name'] }}</p>
-                                <p class="side-text">{{ $foods[$i]['size'] }}</p>
-                            </div>
-                            <div class="right-side">
-                                <p class="main-text">
-                                    @if($foods[$i]['price'])
-                                        {{ $foods[$i]['price'] }} €
-                                    @endif</p>
-                            </div>
-                        </div>
-                            @if ($i < count($foods) - 1)
-                                <hr class="border-t-1 border-gray-300 my-1">
-                            @endif
-                        @endfor
+                        <hr class="border-t-1 border-gray-300 my-1">
+                        @foreach ($foods as $category => $meals)
+                            @foreach ($meals as $meal)
+                                <div class="food">
+                                    <div class="left-side">
+                                        @if ($meal['size_variant'] != 'A')
+                                            <p class="main-text">{{ $meal['size_variant'] }} - {{ $meal['name'] }}</p>
+                                        @else
+                                            <p class="main-text">{{ $meal['name'] }}</p>
+                                        @endif
+                                        <p class="side-text">{{ $meal['size'] }}</p>
+                                    </div>
+                                    <div class="right-side">
+                                        <p class="main-text">
+                                            @if ($meal['price'])
+                                                {{ $meal['price'] }} €
+                                            @endif
+                                        </p>
+                                    </div>
+                                </div>
+                            @endforeach
+                            <hr class="border-t-1 border-gray-300 my-1">
+                        @endforeach
                     @else
                         Na tento deň ešte nebolo menu vygenerované
                     @endif
