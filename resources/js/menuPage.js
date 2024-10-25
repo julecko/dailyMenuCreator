@@ -164,7 +164,7 @@ function sendPostRequest(url, data) {
             console.error('Error:', error);
         });
 }
-function setUpFoodButtons(currentDate){
+function setUpFoodButtons(currentDate) {
     const manualButtons = document.querySelectorAll('.manualChoice');
     manualButtons.forEach(button => {
         button.addEventListener('click', function() {
@@ -173,10 +173,12 @@ function setUpFoodButtons(currentDate){
                 update_type: 'manual',
                 food_type: button.id
             };
-            sendPostRequest('/api/update', data);
-            location.reload();
+            sendPostRequest('/api/update', data).then(() => {
+                location.reload();
+            });
         });
     });
+    
     const deleteButtons = document.querySelectorAll('.deleteChoice');
     deleteButtons.forEach(button => {
         button.addEventListener('click', function() {
@@ -185,18 +187,21 @@ function setUpFoodButtons(currentDate){
                 update_type: 'delete',
                 food_type: button.id
             };
-            sendPostRequest('/api/update', data);
-            location.reload();
+            sendPostRequest('/api/update', data).then(() => {
+                location.reload();
+            });
         });
     });
 }
-function setUpSideButtons(currentDate){
+
+function setUpSideButtons(currentDate) {
     const generateButton = document.getElementById('generateButton');
-    generateButton.addEventListener('click', function(){
+    generateButton.addEventListener('click', function() {
         const data = {
             date: formatDate(currentDate),
         };
-        sendPostRequest('/api/generate', data);
-        location.reload();
-    })
+        sendPostRequest('/api/generate', data).then(() => {
+            location.reload();
+        });
+    });
 }
