@@ -150,7 +150,7 @@ class MenuPageController extends Controller
         DailyMenu::createMenu($date);
         return response()->json([
             'success' => true,
-            'message' => 'Food was updated',
+            'message' => 'Menu was generated',
         ]);
     }
 }

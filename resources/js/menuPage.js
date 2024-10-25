@@ -133,7 +133,7 @@ function updateCalendar(year, month) {
         });
 }
 function sendPostRequest(url, data) {
-    fetch(url, {
+    return fetch(url, {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
@@ -178,7 +178,7 @@ function setUpFoodButtons(currentDate) {
             });
         });
     });
-    
+
     const deleteButtons = document.querySelectorAll('.deleteChoice');
     deleteButtons.forEach(button => {
         button.addEventListener('click', function() {

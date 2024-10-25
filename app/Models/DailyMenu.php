@@ -4,6 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Facades\Log;
 
 class DailyMenu extends Model
 {
@@ -14,9 +15,10 @@ class DailyMenu extends Model
         return self::where('menu_date', $date)->exists();
     }
     public static function createMenu($date){
+        $currentDate = $date->format('Y-m-d');
         $foods = Food::generateMenu($date);
             $menuData = [
-                'menu_date' => $date,
+                'menu_date' => $currentDate,
                 'soup' => self::getFoodIds($foods['soup']),
                 'bouillon' => self::getFoodIds($foods['bouillon']),
                 'three_variant_meals' => self::getFoodIds($foods['threeVariantsMeals'], true),
@@ -26,10 +28,13 @@ class DailyMenu extends Model
                 'expensive_meal' => self::getFoodIds($foods['expensiveMeal']),
                 'default_meals' => self::getFoodIds($foods['defaultMeals'], true),
             ];
-            DailyMenu::updateOrCreate(
-                ['menu_date' => $menuData['menu_date']],
-                $menuData
-            );
+        $dailyMenu = DailyMenu::where('menu_date', $currentDate)->first();
+
+        if ($dailyMenu) {
+            $dailyMenu->update($menuData);
+        } else {
+            DailyMenu::create($menuData);
+        }
     }
     private static function getFoodIds(array $foodArray, bool $asJson = false)
     {

@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::create('daily_menus', function (Blueprint $table) {
             $table->id();
-            $table->date('menu_date');
+            $table->date('menu_date')->unique();
             $table->integer('soup')->nullable();
             $table->integer('bouillon')->nullable();
             $table->json('three_variant_meals')->nullable();
