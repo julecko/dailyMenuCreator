@@ -4,8 +4,11 @@ namespace App\Http\Controllers;
 
 use App\Models\DailyMenu;
 use App\Models\Food;
+use http\Env\Response;
+use http\Exception\InvalidArgumentException;
 use Illuminate\Http\Request;
 use Illuminate\Support\Carbon;
+use Illuminate\Support\Facades\Validator;
 
 class MenuPageController extends Controller
 {
@@ -75,6 +78,9 @@ class MenuPageController extends Controller
                 return $posA <=> $posB;
             });
         }
+        $formattedMeals = array_filter($formattedMeals, function($value) {
+            return !empty($value) && !($value === [null]);
+        });
         return $formattedMeals;
     }
     private static function formatMeal($mealId) {
@@ -90,5 +96,61 @@ class MenuPageController extends Controller
             ];
         }
         return null;
+    }
+    public static function updateFood(Request $request){
+        $validator = Validator::make($request->all(), [
+            'date' => 'required|date',
+            'update_type' => 'required',
+            'food_type' => 'required',
+        ]);
+        if ($validator->fails()) {
+            return response()->json(['errors' => $validator->errors()], 422);
+        }
+        if ($request->get('update_type') == 'delete'){
+            $date = $request->input('date');
+            $dailyMenu = DailyMenu::where('menu_date', $date)->first();
+
+            if ($dailyMenu) {
+                $dailyMenu->update([
+                    self::translateFoodType($request->get('food_type')) => null,
+                ]);
+            }
+        }
+        return response()->json([
+            'success' => true,
+            'message' => 'Food was updated',
+        ]);
+    }
+    private static function translateFoodType(string $foodType){
+        $mapping = [
+            'soup' => 'soup',
+            'bouillon' => 'bouillon',
+            'threeVariantMeals' => 'three_variant_meals',
+            'twoVariantMeals' => 'two_variant_meals',
+            'meatlessMeal' => 'meatless_meal',
+            'cheapMeal' => 'cheap_meal',
+            'expensiveMeal' => 'expensive_meal',
+            'defaultMeals' => 'default_meals'
+        ];
+
+        if (array_key_exists($foodType, $mapping)) {
+            return $mapping[$foodType];
+        } else {
+            throw new InvalidArgumentException('Invalid meal type provided.');
+        }
+    }
+    public static function generateMenu(Request $request){
+        $validator = Validator::make($request->all(), [
+            'date' => 'required|date',
+        ]);
+        if ($validator->fails()) {
+            return response()->json(['errors' => $validator->errors()], 422);
+        }
+        $date =  Carbon::createFromFormat('Y-m-d', $request->input('date'));
+        DailyMenu::createMenu($date);
+        return response()->json([
+            'success' => true,
+            'message' => 'Food was updated',
+        ]);
     }
 }

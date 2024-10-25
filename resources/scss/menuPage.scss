@@ -29,20 +29,16 @@
 }
 #content {
     display: flex;
-    @apply mx-4;
     flex: 1;
     overflow: hidden;
 }
 #sideBar {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 400px;
     border-left: 1px solid $gray-light-color;
     padding-top: 30px;
-}
-#sideBar {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 #calendar{
     display: flex;
@@ -102,7 +98,6 @@
     flex: 1;
     height: fit-content;
     padding-top: 30px;
-    margin-left: 200px;
     overflow-y: auto;
 }
 #foodList {
@@ -134,4 +129,62 @@
 .side-text {
     color: $side-text-color;
 }
-
+.foodItem {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.foodButtons {
+    @apply border-gray-300;
+    border-right-width: 1px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-right: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    align-items: center;
+    justify-content: center;
+    width: 160px;
+}
+.manualChoice {
+    transition: background-color 0.3s ease;
+    background-color: #00ba00;
+    width: 70px;
+    height: 30px;
+    border-radius: 40px;
+}
+.manualChoice:hover {
+    background-color: #2eff2e;
+}
+.deleteChoice {
+    transition: background-color 0.3s ease;
+    background-color: $orange-color;
+    width: 70px;
+    height: 30px;
+    border-radius: 40px;
+}
+.deleteChoice:hover {
+    background-color: $orange-light-color;
+}
+#sideButtons {
+    @apply flex flex-col align-bottom w-full flex-1;
+    gap: 10px;
+    justify-content: flex-end;
+    align-items: stretch;
+    margin-bottom: 30px;
+}
+#generateButton {
+    transition: background-color 0.3s ease;
+    background-color: #00ba00;
+    margin: 0 30px;
+    height: 45px;
+    border-radius: 40px;
+}
+#exportButton {
+    transition: background-color 0.3s ease;
+    background-color: $orange-color;
+    margin: 0 30px;
+    height: 45px;
+    border-radius: 40px;
+}

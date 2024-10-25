@@ -31,7 +31,7 @@ class FoodSeeder extends Seeder
                     'frequency' => $foodData['frequency'] ?: 0,
                     'meat_type' =>  str_replace("Bravčové", "bravčove", $foodData['meat_type']),
                     'preparation' => $this->getPreparation($foodData['preparation']),
-                    'side_dish' => $sideDishes = $foodData['side_dish1'] || $foodData['side_dish2']
+                    'side_dish' => $foodData['side_dish1'] || $foodData['side_dish2']
                                    ? json_encode(array_filter([$foodData['side_dish1'], $foodData['side_dish2']]))
                                    : null
                 ]);

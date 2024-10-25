@@ -4,41 +4,51 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="{{ mix('css/app.css') }}" rel="stylesheet">
-        <script src="{{ mix('js/calendar.js') }}" defer></script>
+        <script src="{{ mix('js/menuPage.js') }}" defer></script>
         <title>{{ $title ?? 'Menu Creator' }}</title>
     </head>
     <body class="h-full flex flex-col">
         <x-header></x-header>
         <div id="content">
             <div id="mainContent">
-                <h2 class="text-3xl font-bold">Menu na {{ $currentDate ?? "day unknown" }}</h2>
+                <h2 class="text-3xl font-bold" style="margin-left: 200px">Menu na {{ $currentDate ?? "day unknown" }}</h2>
                 <div id="foodList">
                     @if ($foods)
-                        <hr class="border-t-1 border-gray-300 my-1">
+                        <hr class="border-gray-300">
                         @foreach ($foods as $category => $meals)
-                            @foreach ($meals as $meal)
-                                <div class="food">
-                                    <div class="left-side">
-                                        @if ($meal['size_variant'] != 'A')
-                                            <p class="main-text">{{ $meal['size_variant'] }} - {{ $meal['name'] }}</p>
-                                        @else
-                                            <p class="main-text">{{ $meal['name'] }}</p>
-                                        @endif
-                                        <p class="side-text">{{ $meal['size'] }}</p>
-                                    </div>
-                                    <div class="right-side">
-                                        <p class="main-text">
-                                            @if ($meal['price'])
-                                                {{ $meal['price'] }} €
-                                            @endif
-                                        </p>
-                                    </div>
+                            <div class="flex w-full flex-1 h-max">
+                                <div class="foodButtons">
+                                    <button id="{{ $category }}" class="manualChoice">Vybrat</button>
+                                    <button id="{{ $category }}" class="deleteChoice">Zmazat</button>
                                 </div>
-                            @endforeach
-                            <hr class="border-t-1 border-gray-300 my-1">
+                                <div class="foodItem">
+                                    @foreach ($meals as $meal)
+                                        <div class="food">
+                                            <div class="left-side">
+                                                @if ($meal['size_variant'] != 'A')
+                                                    <p class="main-text">{{ $meal['size_variant'] }} - {{ $meal['name'] }}</p>
+                                                @else
+                                                    <p class="main-text">{{ $meal['name'] }}</p>
+                                                @endif
+                                                <p class="side-text">{{ $meal['size'] }}</p>
+                                            </div>
+                                            <div class="right-side">
+                                                <p class="main-text">
+                                                    @if ($meal['price'])
+                                                        {{ $meal['price'] }} €
+                                                    @endif
+                                                </p>
+                                            </div>
+                                        </div>
+                                    @endforeach
+                                </div>
+                            </div>
+                            <hr class="border-gray-300">
                         @endforeach
+                        <div class="border-gray-300" style="height: 5000px;width: 180px;border-right-width: 1px">
+                        </div>
                     @else
-                        Na tento deň ešte nebolo menu vygenerované
+                        <p class="text-center">Na tento deň ešte nebolo menu vygenerované<p>
                     @endif
                 </div>
             </div>
@@ -79,6 +89,20 @@
                     <div id="weeks">
 
                     </div>
+                </div>
+                <div id="sideButtons">
+                    @if ($foods)
+                        <button id="generateButton" style="background-color: #005900;cursor: not-allowed;" disabled>
+                            <p style="font-size: 20px; font-weight: 500">Generovat</p>
+                        </button>
+                    @else
+                        <button id="generateButton">
+                            <p style="font-size: 20px; font-weight: 500">Generovat</p>
+                        </button>
+                    @endif
+                    <button id="exportButton">
+                        <p style="font-size: 19px; font-weight: 500">Exportovat</p>
+                    </button>
                 </div>
             </div>
         </div>

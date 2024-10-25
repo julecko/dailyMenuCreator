@@ -31,6 +31,9 @@ document.addEventListener("DOMContentLoaded", function(){
         }
         updateCalendar(currentYear, currentMonth)
     })
+    setUpFoodButtons(currentDate);
+    setUpSideButtons(currentDate);
+
 })
 function getMonthName(monthNumber) {
     switch (monthNumber) {
@@ -74,13 +77,18 @@ async function getCalendarData(year, month) {
         return 'There has been a problem with your fetch operation:';
     }
 }
+function formatDate(date) {
+    const year = date.getFullYear();
+    const month = String(date.getMonth() + 1).padStart(2, '0');
+    const day = String(date.getDate()).padStart(2, '0');
+    return `${year}-${month}-${day}`;
+}
 function updateCalendar(year, month) {
     const weeksContainer = document.getElementById('weeks');
     weeksContainer.innerHTML = '';
 
     getCalendarData(year, month)
         .then(data => {
-            console.log(data);
             if (!data) {
                 console.error('No data returned from the API.');
                 return;
@@ -123,4 +131,72 @@ function updateCalendar(year, month) {
         .catch(error => {
             console.error('Error:', error);
         });
+}
+function sendPostRequest(url, data) {
+    fetch(url, {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(data),
+    })
+        .then(response => {
+            return response.text().then(text => {
+                console.log('Raw response:', text);
+                return text;
+            });
+        })
+        .then(text => {
+            let data;
+            try {
+                data = JSON.parse(text);
+            } catch (e) {
+                console.error('Error parsing JSON:', e);
+                throw e;
+            }
+            if (data.success) {
+                console.log('Success:', data);
+            } else {
+                console.error('Error:', data.message || 'Request was unsuccessful');
+            }
+        })
+        .catch((error) => {
+            console.error('Error:', error);
+        });
+}
+function setUpFoodButtons(currentDate){
+    const manualButtons = document.querySelectorAll('.manualChoice');
+    manualButtons.forEach(button => {
+        button.addEventListener('click', function() {
+            const data = {
+                date: formatDate(currentDate),
+                update_type: 'manual',
+                food_type: button.id
+            };
+            sendPostRequest('/api/update', data);
+            location.reload();
+        });
+    });
+    const deleteButtons = document.querySelectorAll('.deleteChoice');
+    deleteButtons.forEach(button => {
+        button.addEventListener('click', function() {
+            const data = {
+                date: formatDate(currentDate),
+                update_type: 'delete',
+                food_type: button.id
+            };
+            sendPostRequest('/api/update', data);
+            location.reload();
+        });
+    });
+}
+function setUpSideButtons(currentDate){
+    const generateButton = document.getElementById('generateButton');
+    generateButton.addEventListener('click', function(){
+        const data = {
+            date: formatDate(currentDate),
+        };
+        sendPostRequest('/api/generate', data);
+        location.reload();
+    })
 }

@@ -2,7 +2,7 @@ const mix = require('laravel-mix');
 const BrowserSyncPlugin = require('browser-sync-webpack-plugin');
 
 mix.js('resources/js/app.js', 'public/js')
-    .js('resources/js/calendar.js', 'public/js')
+    .js('resources/js/menuPage.js', 'public/js')
     .copy('resources/assets', 'public/assets')
     .postCss('resources/css/app.css', 'public/css', [
         require('tailwindcss'),

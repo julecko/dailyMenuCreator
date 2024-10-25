@@ -3,7 +3,7 @@
 use App\Http\Controllers\CalendarController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
-
+use \App\Http\Controllers\MenuPageController;
 /*
 |--------------------------------------------------------------------------
 | API Routes
@@ -20,3 +20,7 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 Route::post('/calendar', [CalendarController::class, 'createMonth'])
     ->name('calendarMonth');
+Route::post('/update', [MenuPageController::class, 'updateFood'])
+    ->name('updateFood');
+Route::post('/generate', [MenuPageController::class, 'generateMenu'])
+    ->name('generateMenu');
