@@ -128,7 +128,7 @@ Fliačky s kyslou kapustou a slaninou;Hlavné jedlo;350g;1,12;;5.50 €;nemäso;
 Francúzska polievka;polievka;0,4l;1;;;ina;;Francúzska polievka;;
 Francúzske zemiaky, kyslá uhorka;Hlavné jedlo;400g;1,3,7;;5.50 €;prívarok;;Francúzske zemiaky;;
 Frankfurtská polievka;polievka;0,4l;1;;;ina;;Frankfurtská polievka;;
-Fritované rezance so šunkovo syrovou omáčkou, ?ryža,?hranolky;Hlavné jedlo;150g/150g/100g;1,7;XL;6.30 €;kuracie;;Fritované rezance so šunkovo syrovou omáčkou;ryža;hranolky
+Fritované rezance so šunkovo syrovou omáčkou, ½ryža,½hranolky;Hlavné jedlo;150g/150g/100g;1,7;XL;6.30 €;kuracie;;Fritované rezance so šunkovo syrovou omáčkou;ryža;hranolky
 Fritované rezance so šunkovo syrovou omáčkou, ryža;Hlavné jedlo;200g/200g;1,7;2X;7.10 €;kuracie;;Fritované rezance so šunkovo syrovou omáčkou;ryža;
 Fritované rezance so šunkovo syrovou omáčkou, ryža;Hlavné jedlo;100g/200g;1,7;;5.50 €;kuracie;;Fritované rezance so šunkovo syrovou omáčkou;ryža;
 Fritované rezance so šunkovo syrovou omáčkou, ryža;Hlavné jedlo;150g/200g;1,7;XL;6.30 €;kuracie;;Fritované rezance so šunkovo syrovou omáčkou;ryža;
@@ -188,7 +188,7 @@ Hortobacke palacinky, hranolky, obloha;Hlavné jedlo;100g/200g;1,3,7;;6.90 €;n
 Hovädzí tokáň, ryža;Hlavné jedlo;150g/200g;0;;6.90 €;hovädzie;;Hovädzí tokáň;ryža;
 Hovädzí vývar s niťovkami a zeleninou;polievka;0,4l;1;;;vývar;;Hovädzí vývar s niťovkami a zeleninou;;
 Hovädzia roštenka, ryža, kyslá uhorka;Hlavné jedlo;150g/200g;1;;6.90 €;hovädzie;;Hovädzia roštenka;ryža;
-Hovädzie na šampiňónoch, ?ryža, ?hranolky;Hlavné jedlo;150g/150g/100g;1;;6.90 €;hovädzie;;Hovädzie na šampiňónoch;ryža;hranolky
+Hovädzie na šampiňónoch, ½ryža, ½hranolky;Hlavné jedlo;150g/150g/100g;1;;6.90 €;hovädzie;;Hovädzie na šampiňónoch;ryža;hranolky
 Hovädzie plátky s hub.-smotan. omáčkou, žemľová knedľa;Hlavné jedlo;150g/200g;1;;6.90 €;hovädzie;;Hovädzie plátky s hub.-smotan. omáčkou;žemľová knedľa;
 Hovädzie plátky v hubovej omáčke, knedle;Hlavné jedlo;150g/200g;1;;6.90 €;hovädzie;;Hovädzie plátky v hubovej omáčke;knedľa;
 Hovädzie rezančeky s pórom, ryža, obloha;Hlavné jedlo;150g/200g;1;;6.90 €;hovädzie;;Hovädzie rezančeky s pórom;ryža;
@@ -330,9 +330,9 @@ Kurací rezeň v syrovom cestíčku, zemiaková kaša, šalát;Hlavné jedlo;200
 Kurací rezeň v syrovom cestíčku, zemiaková kaša, šalát;Hlavné jedlo;100g/200g;1,3,7;;5.50 €;kuracie;;Kurací rezeň;zemiaková kaša;
 Kurací rezeň v syrovom cestíčku, zemiaková kaša, šalát;Hlavné jedlo;150g/200g;1,3,7;XL;6.30 €;kuracie;;Kurací rezeň;zemiaková kaša;
 Kuracia pečeň v zemiakovej placke, šalát;Hlavné jedlo;350g;1,3;;5.50 €;kuracie;;Kuracia pečeň v zemiakovej placke;zemiaková placka;
-Farebné kuracie prsia, ?ryža,?hranolky, obloha;Hlavné jedlo;200g/100g/100g;1;2X;7.10 €;kuracie;;kuracie prsia;ryža;hranolky
-Farebné kuracie prsia, ?ryža,?hranolky, obloha;Hlavné jedlo;100g/200g;1;;5.50 €;kuracie;;kuracie prsia;ryža;hranolky
-Farebné kuracie prsia, ?ryža,?hranolky, obloha;Hlavné jedlo;150g/200g;1;XL;6.30 €;kuracie;;kuracie prsia;ryža;hranolky
+Farebné kuracie prsia, ½ryža,½hranolky, obloha;Hlavné jedlo;200g/100g/100g;1;2X;7.10 €;kuracie;;kuracie prsia;ryža;hranolky
+Farebné kuracie prsia, ½ryža,½hranolky, obloha;Hlavné jedlo;100g/200g;1;;5.50 €;kuracie;;kuracie prsia;ryža;hranolky
+Farebné kuracie prsia, ½ryža,½hranolky, obloha;Hlavné jedlo;150g/200g;1;XL;6.30 €;kuracie;;kuracie prsia;ryža;hranolky
 Farebné kuracie prsia, ryža, obloha;Hlavné jedlo;200g/200g;1;2X;7.10 €;kuracie;;kuracie prsia;ryža;
 Farebné kuracie prsia, ryža, obloha;Hlavné jedlo;100g/200g;1;;5.50 €;kuracie;;kuracie prsia;ryža;
 Farebné kuracie prsia, ryža, obloha;Hlavné jedlo;150g/200g;1;XL;6.30 €;kuracie;;kuracie prsia;ryža;
@@ -352,21 +352,21 @@ Kuracie prsia na kari omáčke s broskyňou a jah., hranolky;Hlavné jedlo;150g/
 Kuracie prsia na kari omáčke s broskyňou a jah., ryža s kukuricou;Hlavné jedlo;150g/200g;1;;6.90 €;kuracie;;Kuracie prsia;ryža;
 Kuracie prsia na paprike, maslové halušky;Hlavné jedlo;150g/180g;1,3,7;XL;6.30 €;kuracie;;Kuracie prsia;maslové halušky;
 Kuracie prsia s cherry paradajkami a chrumkavou posýpkou, krokety;Hlavné jedlo;150g/200g;1;;6.90 €;kuracie;;Kuracie prsia;krokety;
-Kuracie prsia s jarnou zeleninou, ?ryža, ?hranolky;Hlavné jedlo;200g/150g/100g;1;2X;7.10 €;kuracie;;Kuracie prsia;ryža;hranolky
-Kuracie prsia s jarnou zeleninou, ?ryža, ?hranolky;Hlavné jedlo;100g/150g/100g;1;;5.50 €;kuracie;;Kuracie prsia;ryža;hranolky
-Kuracie prsia s jarnou zeleninou, ?ryža, ?hranolky;Hlavné jedlo;150g/150g/100g;1;XL;6.30 €;kuracie;;Kuracie prsia;ryža;hranolky
+Kuracie prsia s jarnou zeleninou, ½ryža, ½hranolky;Hlavné jedlo;200g/150g/100g;1;2X;7.10 €;kuracie;;Kuracie prsia;ryža;hranolky
+Kuracie prsia s jarnou zeleninou, ½ryža, ½hranolky;Hlavné jedlo;100g/150g/100g;1;;5.50 €;kuracie;;Kuracie prsia;ryža;hranolky
+Kuracie prsia s jarnou zeleninou, ½ryža, ½hranolky;Hlavné jedlo;150g/150g/100g;1;XL;6.30 €;kuracie;;Kuracie prsia;ryža;hranolky
 Kuracie prsia s jarnou zeleninou, fritované zemiaky;Hlavné jedlo;200g/200g;1;2X;7.10 €;kuracie;;Kuracie prsia;fritované zemiaky;
 Kuracie prsia s jarnou zeleninou, fritované zemiaky;Hlavné jedlo;100g/200g;1;;5.50 €;kuracie;;Kuracie prsia;fritované zemiaky;
 Kuracie prsia s jarnou zeleninou, fritované zemiaky;Hlavné jedlo;150g/200g;1;XL;6.30 €;kuracie;;Kuracie prsia;fritované zemiaky;
 Kuracie prsia s mandľovými lupienkami a cherry paradajkami, hranolky;Hlavné jedlo;150g/200g;1,8;;6.90 €;kuracie;;Kuracie prsia;hranolky;
 Kuracie prsia so sušenými paradajkami a chrumkavou posýpkou, hranolky;Hlavné jedlo;150g/200g;1;;6.90 €;kuracie;;Kuracie prsia;hranolky;
-Marinované kuracie prsia, ?r?h, šalát;Hlavné jedlo;150g/150g/100g;1;XL;6.30 €;kuracie;;kuracie prsia;ryža;hranolky
-Marinované kuracie prsia, ?ryža, ?hranolky, ang.zelenina;Hlavné jedlo;200g/150g/100g;1;2X;7.10 €;kuracie;;kuracie prsia;ryža;hranolky
-Marinované kuracie prsia, ?ryža, ?hranolky, ang.zelenina;Hlavné jedlo;100g/150g/100g;1;;5.50 €;kuracie;;kuracie prsia;ryža;hranolky
-Marinované kuracie prsia, ?ryža, ?hranolky, ang.zelenina;Hlavné jedlo;150g/150g/100g;1;XL;6.30 €;kuracie;;kuracie prsia;ryža;hranolky
-Marinované kuracie prsia, ?ryža, ?hranolky, obloha;Hlavné jedlo;200g/150g/100g;1;2X;7.10 €;kuracie;;kuracie prsia;ryža;hranolky
-Marinované kuracie prsia, ?ryža, ?hranolky, obloha;Hlavné jedlo;100g/150g/100g;1;;5.50 €;kuracie;;kuracie prsia;ryža;hranolky
-Marinované kuracie prsia, ?ryža, ?hranolky, obloha;Hlavné jedlo;150g/150g/100g;1;XL;6.30 €;kuracie;;kuracie prsia;ryža;hranolky
+Marinované kuracie prsia, ½r½h, šalát;Hlavné jedlo;150g/150g/100g;1;XL;6.30 €;kuracie;;kuracie prsia;ryža;hranolky
+Marinované kuracie prsia, ½ryža, ½hranolky, ang.zelenina;Hlavné jedlo;200g/150g/100g;1;2X;7.10 €;kuracie;;kuracie prsia;ryža;hranolky
+Marinované kuracie prsia, ½ryža, ½hranolky, ang.zelenina;Hlavné jedlo;100g/150g/100g;1;;5.50 €;kuracie;;kuracie prsia;ryža;hranolky
+Marinované kuracie prsia, ½ryža, ½hranolky, ang.zelenina;Hlavné jedlo;150g/150g/100g;1;XL;6.30 €;kuracie;;kuracie prsia;ryža;hranolky
+Marinované kuracie prsia, ½ryža, ½hranolky, obloha;Hlavné jedlo;200g/150g/100g;1;2X;7.10 €;kuracie;;kuracie prsia;ryža;hranolky
+Marinované kuracie prsia, ½ryža, ½hranolky, obloha;Hlavné jedlo;100g/150g/100g;1;;5.50 €;kuracie;;kuracie prsia;ryža;hranolky
+Marinované kuracie prsia, ½ryža, ½hranolky, obloha;Hlavné jedlo;150g/150g/100g;1;XL;6.30 €;kuracie;;kuracie prsia;ryža;hranolky
 Marinované kuracie prsia, americké zemiaky;Hlavné jedlo;200g/200g;1;2X;7.10 €;kuracie;;kuracie prsia;americké zemiaky;
 Marinované kuracie prsia, americké zemiaky;Hlavné jedlo;100g/200g;1;;5.50 €;kuracie;;kuracie prsia;americké zemiaky;
 Marinované kuracie prsia, americké zemiaky;Hlavné jedlo;150g/200g;1;XL;6.30 €;kuracie;;kuracie prsia;americké zemiaky;
@@ -382,16 +382,16 @@ Marinované kuracie prsia, ryža, obloha;Hlavné jedlo;150g/200g;1;XL;6.30 €;k
 Prír.kur.prsia s omáčkou z mascarpone a kuriatkami, fritované zemiaky;Hlavné jedlo;150g/200g;1,7;;6.90 €;kuracie;;kuracie prsia;fritované zemiaky;
 Prír.kur.prsia s omáčkou z mascarpone a kuriatkami, hranolky;Hlavné jedlo;150g/200g;1,7;;6.90 €;kuracie;;kuracie prsia;hranolky;
 Prír.kur.prsia s omáčkou z mascarpone a kuriatkami, krokety;Hlavné jedlo;150g/200g;1,7;;6.90 €;kuracie;;kuracie prsia;krokety;
-Fritované kuracie rezance s ananásom a jablkom, ?ryža,?hranolky;Hlavné jedlo;200g/150g/100g;1;2X;7.10 €;kuracie;;kuracie rezance;ryža;hranolky
-Fritované kuracie rezance s ananásom a jablkom, ?ryža,?hranolky;Hlavné jedlo;100g/150g/100g;1;;5.50 €;kuracie;;kuracie rezance;ryža;hranolky
-Fritované kuracie rezance s ananásom a jablkom, ?ryža,?hranolky;Hlavné jedlo;150g/150g/100g;1;XL;6.30 €;kuracie;;kuracie rezance;ryža;hranolky
-Fritované kuracie rezance so šunkovo-syrovou omáčkou, ?ryža, ?hranolky;Hlavné jedlo;150g/150g/100g;1,7;XL;6.30 €;kuracie;;kuracie rezance;ryža;hranolky
-Fritované kuracie rezance so šunkovo-syrovou omáčkou, ?ryža, ?hranolky;Hlavné jedlo;100g/150g/100g;1,7;;5.50 €;kuracie;;kuracie rezance;ryža;hranolky
-Fritované kuracie rezančeky so syrovou omáčkou, ?r,?hr;Hlavné jedlo;200g/150g/100g;1,7;2X;7.10 €;kuracie;;kuracie rezance;ryža;hranolky
-Fritované kuracie rezančeky so syrovou omáčkou, ?r,?hr;Hlavné jedlo;100g/150g/100g;1,7;;5.50 €;kuracie;;kuracie rezance;ryža;hranolky
-Fritované kuracie rezančeky so syrovou omáčkou, ?r,?hr;Hlavné jedlo;150g/150g/100g;1,7;XL;6.30 €;kuracie;;kuracie rezance;ryža;hranolky
-Kuracie rezance so šunkovo-syrovou omáčkou, ?ryža, ?hranolky;Hlavné jedlo;100g/150g/100g;1,7;;5.50 €;kuracie;;Kuracie rezance;ryža;hranolky
-Kuracie rezance so šunkovo-syrovou omáčkou, ?ryža, ?hranolky;Hlavné jedlo;150g/150g/100g;1,7;XL;6.30 €;kuracie;;Kuracie rezance;ryža;hranolky
+Fritované kuracie rezance s ananásom a jablkom, ½ryža,½hranolky;Hlavné jedlo;200g/150g/100g;1;2X;7.10 €;kuracie;;kuracie rezance;ryža;hranolky
+Fritované kuracie rezance s ananásom a jablkom, ½ryža,½hranolky;Hlavné jedlo;100g/150g/100g;1;;5.50 €;kuracie;;kuracie rezance;ryža;hranolky
+Fritované kuracie rezance s ananásom a jablkom, ½ryža,½hranolky;Hlavné jedlo;150g/150g/100g;1;XL;6.30 €;kuracie;;kuracie rezance;ryža;hranolky
+Fritované kuracie rezance so šunkovo-syrovou omáčkou, ½ryža, ½hranolky;Hlavné jedlo;150g/150g/100g;1,7;XL;6.30 €;kuracie;;kuracie rezance;ryža;hranolky
+Fritované kuracie rezance so šunkovo-syrovou omáčkou, ½ryža, ½hranolky;Hlavné jedlo;100g/150g/100g;1,7;;5.50 €;kuracie;;kuracie rezance;ryža;hranolky
+Fritované kuracie rezančeky so syrovou omáčkou, ½r,½hr;Hlavné jedlo;200g/150g/100g;1,7;2X;7.10 €;kuracie;;kuracie rezance;ryža;hranolky
+Fritované kuracie rezančeky so syrovou omáčkou, ½r,½hr;Hlavné jedlo;100g/150g/100g;1,7;;5.50 €;kuracie;;kuracie rezance;ryža;hranolky
+Fritované kuracie rezančeky so syrovou omáčkou, ½r,½hr;Hlavné jedlo;150g/150g/100g;1,7;XL;6.30 €;kuracie;;kuracie rezance;ryža;hranolky
+Kuracie rezance so šunkovo-syrovou omáčkou, ½ryža, ½hranolky;Hlavné jedlo;100g/150g/100g;1,7;;5.50 €;kuracie;;Kuracie rezance;ryža;hranolky
+Kuracie rezance so šunkovo-syrovou omáčkou, ½ryža, ½hranolky;Hlavné jedlo;150g/150g/100g;1,7;XL;6.30 €;kuracie;;Kuracie rezance;ryža;hranolky
 Kuracie rezančeky na slanine, slovenská ryža, kyslá uhorka;Hlavné jedlo;200g/180g;1;2X;7.10 €;kuracie;;Kuracie rezance;slovenská ryža;
 Kuracie rezančeky na slanine, slovenská ryža, kyslá uhorka;Hlavné jedlo;100g/180g;1;;5.50 €;kuracie;;Kuracie rezance;slovenská ryža;
 Kuracie rezančeky na slanine, slovenská ryža, kyslá uhorka;Hlavné jedlo;150g/180g;1;XL;6.30 €;kuracie;;Kuracie rezance;slovenská ryža;
@@ -443,9 +443,9 @@ Vyprážané horné kuracie stehno, var.zemiaky, zel.šalát;Hlavné jedlo;200g/
 Vyprážané horné kuracie stehno, zemiak. kaša, zel.šalát;Hlavné jedlo;400g/200g;1,3,7;2X;7.10 €;kuracie;;kuracie stehno;zemiaková kaša;
 Vyprážané horné kuracie stehno, zemiak. kaša, zel.šalát;Hlavné jedlo;200g/200g;1,3,7;;5.50 €;kuracie;;kuracie stehno;zemiaková kaša;
 Vyprážané horné kuracie stehno, zemiak. kaša, zel.šalát;Hlavné jedlo;300g/200g;1,3,7;XL;6.30 €;kuracie;;kuracie stehno;zemiaková kaša;
-Kuracie v hubovo-smotanovej omáčke, ?ryža, ?hranolky;Hlavné jedlo;200g/150g/100g;1,7;2X;7.10 €;kuracie;;Kuracie v hubovo-smotanovej omáčke;ryža;hranolky
-Kuracie v hubovo-smotanovej omáčke, ?ryža, ?hranolky;Hlavné jedlo;100g/150g/100g;1,7;;5.50 €;kuracie;;Kuracie v hubovo-smotanovej omáčke;ryža;hranolky
-Kuracie v hubovo-smotanovej omáčke, ?ryža, ?hranolky;Hlavné jedlo;150g/150g/100g;1,7;XL;6.30 €;kuracie;;Kuracie v hubovo-smotanovej omáčke;ryža;hranolky
+Kuracie v hubovo-smotanovej omáčke, ½ryža, ½hranolky;Hlavné jedlo;200g/150g/100g;1,7;2X;7.10 €;kuracie;;Kuracie v hubovo-smotanovej omáčke;ryža;hranolky
+Kuracie v hubovo-smotanovej omáčke, ½ryža, ½hranolky;Hlavné jedlo;100g/150g/100g;1,7;;5.50 €;kuracie;;Kuracie v hubovo-smotanovej omáčke;ryža;hranolky
+Kuracie v hubovo-smotanovej omáčke, ½ryža, ½hranolky;Hlavné jedlo;150g/150g/100g;1,7;XL;6.30 €;kuracie;;Kuracie v hubovo-smotanovej omáčke;ryža;hranolky
 Kuracie v zemiakovej placke, biela a červená kapusta;Hlavné jedlo;100g;1,3,7;;5.50 €;kuracie;;Kuracie v zemiakovej placke;zemiaková placka;
 Kuracie v zemiakovej placke, biela a červená kapusta;Hlavné jedlo;150g;1,3,7;XL;6.30 €;kuracie;;Kuracie v zemiakovej placke;zemiaková placka;
 Kuracie v zemiakovej placke, zeleninová obloha;Hlavné jedlo;200g;1,3,7;2X;7.10 €;kuracie;;Kuracie v zemiakovej placke;zemiaková placka;
@@ -477,9 +477,9 @@ Mrkvovo-hrášková polievka s liatym cestom;polievka;0,4l;1,3;;;ina;;Mrkvovo-hr
 Mrkvovo-hrášková polievka s mrvenicou;polievka;0,4l;1;;;ina;;Mrkvovo-hrášková polievka s mrvenicou;;
 Mrkvovo-hrašková polievka s ryžou;polievka;0,4l;1;;;ina;;Mrkvovo-hrašková polievka s ryžou;;
 Mrkvovo-hrašková polievka so zemiakmi;polievka;0,4l;1;;;ina;;Mrkvovo-hrašková polievka so zemiakmi;;
-Kuracie na smotane, ?ryža, ?hranolky;Hlavné jedlo;200g/150g/100g;1,7;2X;7.10 €;kuracie;;na smotane;ryža;hranolky
-Kuracie na smotane, ?ryža, ?hranolky;Hlavné jedlo;100g/150g/100g;1,7;;5.50 €;kuracie;;na smotane;ryža;hranolky
-Kuracie na smotane, ?ryža, ?hranolky;Hlavné jedlo;150g/150g/100g;1,7;XL;6.30 €;kuracie;;na smotane;ryža;hranolky
+Kuracie na smotane, ½ryža, ½hranolky;Hlavné jedlo;200g/150g/100g;1,7;2X;7.10 €;kuracie;;na smotane;ryža;hranolky
+Kuracie na smotane, ½ryža, ½hranolky;Hlavné jedlo;100g/150g/100g;1,7;;5.50 €;kuracie;;na smotane;ryža;hranolky
+Kuracie na smotane, ½ryža, ½hranolky;Hlavné jedlo;150g/150g/100g;1,7;XL;6.30 €;kuracie;;na smotane;ryža;hranolky
 Kuracie na smotane, cestovina  / penne /;Hlavné jedlo;100g/180g;1,3,7;;5.50 €;kuracie;;na smotane;cestovina;
 Kuracie na smotane, kolienka;Hlavné jedlo;100g/180g;1,3,7;;5.50 €;kuracie;;na smotane;kolienka;
 Kuracie na smotane, kolienka;Hlavné jedlo;150g/180g;1,3,7;XL;6.30 €;kuracie;;na smotane;kolienka;
@@ -493,9 +493,9 @@ Bravčový paprikáš, cestovina;Hlavné jedlo;150g/180g;1,3,7;XL;6.30 €;Brav�
 Bravčový paprikáš, noky;Hlavné jedlo;200g/180g;1,3,7;2X;7.10 €;Bravčové;;Paprikáš;noky;
 Bravčový paprikáš, noky;Hlavné jedlo;100g/180g;1;;5.50 €;Bravčové;;Paprikáš;noky;
 Hlivový paprikáš, noky;Hlavné jedlo;350g;1,3,7;;5.50 €;nemäso;;paprikáš;noky;
-Kurací paprikáš, ?ryža, ?hranolky;Hlavné jedlo;200g/150g/100g;1,3,7;2X;7.10 €;kuracie;;paprikáš;ryža;hranolky
-Kurací paprikáš, ?ryža, ?hranolky;Hlavné jedlo;100g/150g/100g;1,3,7;;5.50 €;kuracie;;paprikáš;ryža;hranolky
-Kurací paprikáš, ?ryža, ?hranolky;Hlavné jedlo;150g/150g/100g;1,3,7;XL;6.30 €;kuracie;;paprikáš;ryža;hranolky
+Kurací paprikáš, ½ryža, ½hranolky;Hlavné jedlo;200g/150g/100g;1,3,7;2X;7.10 €;kuracie;;paprikáš;ryža;hranolky
+Kurací paprikáš, ½ryža, ½hranolky;Hlavné jedlo;100g/150g/100g;1,3,7;;5.50 €;kuracie;;paprikáš;ryža;hranolky
+Kurací paprikáš, ½ryža, ½hranolky;Hlavné jedlo;150g/150g/100g;1,3,7;XL;6.30 €;kuracie;;paprikáš;ryža;hranolky
 Kurací paprikáš, kolienka;Hlavné jedlo;100g/180g;1,3,7;;5.50 €;kuracie;;paprikáš;kolienka;
 Kurací paprikáš, kolienka;Hlavné jedlo;150g/180g;1,3,7;XL;6.30 €;kuracie;;paprikáš;kolienka;
 Kurací paprikáš, noky;Hlavné jedlo;100g/200g;1,3,7;;5.50 €;kuracie;;paprikáš;noky;
@@ -541,7 +541,7 @@ Zapekaný kur.plátok s bryndzou a šunkou, hranolky, gril.zel.;Hlavné jedlo;15
 Plnená kapusta, chlieb;Hlavné jedlo;400g;1,3,7,12;;5.50 €;bravčove;;Plnená kapusta;chlieb;
 Poľovnícka pečeň so slaninou, ryža, kyslá uhorka;Hlavné jedlo;200g/200g;1;;5.50 €;bravčove;;Poľovnícka pečeň so slaninou;ryža;
 Pórová polievka s liatym cestom;polievka;0,4l;1,3;;;ina;;Pórová polievka s liatym cestom;;
-Prír.bravč.prsia so šampiňónmi, ?ryža, ?hranolky, šalát;Hlavné jedlo;150g/150g/100g;1;XL;6.30 €;bravčove;;Prír.bravč.prsia so šampiňónmi;ryža;hranolky
+Prír.bravč.prsia so šampiňónmi, ½ryža, ½hranolky, šalát;Hlavné jedlo;150g/150g/100g;1;XL;6.30 €;bravčove;;Prír.bravč.prsia so šampiňónmi;ryža;hranolky
 Prívarok zo zelenej fazuľky, 2x fašírka alebo 2x volské oko, chlieb;Hlavné jedlo;400g;1,3,7;;5.50 €;prívarok;;Prívarok zo zelenej fazuľky;chlieb;
 Prívarok zo zelenej fazuľky, 2x fašírka, chlieb;Hlavné jedlo;400g;1,3,7;;5.50 €;prívarok;;Prívarok zo zelenej fazuľky;chlieb;
 Prívarok zo zelenej fazuľky, 2x volské oko, chlieb;Hlavné jedlo;400g;1,3,7;;5.50 €;prívarok;;Prívarok zo zelenej fazuľky;chlieb;
@@ -581,15 +581,15 @@ Budapeštiansky bravčový rezeň, varené zemiaky, uhorka;Hlavné jedlo;150g/20
 Budapeštiansky bravčový rezeň, zemiaková kaša, uhorka;Hlavné jedlo;200g/200g;1,3;2X;7.10 €;Bravčové;;Rezeň;zemiaková kaša;
 Budapeštiansky bravčový rezeň, zemiaková kaša, uhorka;Hlavné jedlo;100g/200g;1,3,7;;5.50 €;Bravčové;;Rezeň;zemiaková kaša;
 Budapeštiansky bravčový rezeň, zemiaková kaša, uhorka;Hlavné jedlo;150g/200g;1,3,7;XL;6.30 €;Bravčové;;Rezeň;zemiaková kaša;
-Gazd.bravč.rezeň so slaninkou a cibuľou, ?ryža,?frit.zem.;Hlavné jedlo;200g/150g/100g;1;2X;7.10 €;Bravčové;;Rezeň;ryža;fritované zemiaky
-Gazd.bravč.rezeň so slaninkou a cibuľou, ?ryža,?frit.zem.;Hlavné jedlo;100g/150g/100g;1;;5.50 €;Bravčové;;Rezeň;ryža;fritované zemiaky
-Gazd.bravč.rezeň so slaninkou a cibuľou, ?ryža,?frit.zem.;Hlavné jedlo;150g/150g/100g;1;XL;6.30 €;Bravčové;;Rezeň;ryža;fritované zemiaky
+Gazd.bravč.rezeň so slaninkou a cibuľou, ½ryža,½frit.zem.;Hlavné jedlo;200g/150g/100g;1;2X;7.10 €;Bravčové;;Rezeň;ryža;fritované zemiaky
+Gazd.bravč.rezeň so slaninkou a cibuľou, ½ryža,½frit.zem.;Hlavné jedlo;100g/150g/100g;1;;5.50 €;Bravčové;;Rezeň;ryža;fritované zemiaky
+Gazd.bravč.rezeň so slaninkou a cibuľou, ½ryža,½frit.zem.;Hlavné jedlo;150g/150g/100g;1;XL;6.30 €;Bravčové;;Rezeň;ryža;fritované zemiaky
 Gazdovský bravčový rezeň so slaninkou a cibuľkou, americké zemiaky;Hlavné jedlo;200g/200g;1;2X;7.10 €;Bravčové;;Rezeň;americké zemiaky;
 Gazdovský bravčový rezeň so slaninkou a cibuľkou, americké zemiaky;Hlavné jedlo;100g/200g;1;;5.50 €;Bravčové;;Rezeň;americké zemiaky;
 Gazdovský bravčový rezeň so slaninkou a cibuľkou, americké zemiaky;Hlavné jedlo;150g/200g;1;XL;6.30 €;Bravčové;;Rezeň;americké zemiaky;
-Gazdovský bravčový rezeň so slaninkou a cibuľou, ?ryža,?hranolky;Hlavné jedlo;200g/150g/100g;1;2X;7.10 €;Bravčové;;Rezeň;ryža;hranolky
-Gazdovský bravčový rezeň so slaninkou a cibuľou, ?ryža,?hranolky;Hlavné jedlo;100g/150g/100g;1;;5.50 €;Bravčové;;Rezeň;ryža;hranolky
-Gazdovský bravčový rezeň so slaninkou a cibuľou, ?ryža,?hranolky;Hlavné jedlo;150g/150g/100g;1;XL;6.30 €;Bravčové;;Rezeň;ryža;hranolky
+Gazdovský bravčový rezeň so slaninkou a cibuľou, ½ryža,½hranolky;Hlavné jedlo;200g/150g/100g;1;2X;7.10 €;Bravčové;;Rezeň;ryža;hranolky
+Gazdovský bravčový rezeň so slaninkou a cibuľou, ½ryža,½hranolky;Hlavné jedlo;100g/150g/100g;1;;5.50 €;Bravčové;;Rezeň;ryža;hranolky
+Gazdovský bravčový rezeň so slaninkou a cibuľou, ½ryža,½hranolky;Hlavné jedlo;150g/150g/100g;1;XL;6.30 €;Bravčové;;Rezeň;ryža;hranolky
 Gazdovský bravčový rezeň so slaninkou a cibuľou, opekané zemiaky;Hlavné jedlo;200g/180g;1;2X;7.10 €;Bravčové;;Rezeň;opekané zemiaky;
 Gazdovský bravčový rezeň so slaninkou a cibuľou, opekané zemiaky;Hlavné jedlo;100g/200g;1;;5.50 €;Bravčové;;Rezeň;opekané zemiaky;
 Gazdovský bravčový rezeň so slaninkou a cibuľou, opekané zemiaky;Hlavné jedlo;150g/180g;1;XL;6.30 €;Bravčové;;Rezeň;opekané zemiaky;
@@ -620,8 +620,8 @@ Prír. kur. rezeň s cibuľovo-horčicovou omáčkou, opek.zemiaky,šalát;Hlavn
 Prír. kur.rezeň , baby mrkva na masle, zem. kaša;Hlavné jedlo;150g/200g;1,7;XL;6.30 €;kuracie;;rezeň;zemiaková kaša;
 Prír. kurací rezeň na smotane, cestovina;Hlavné jedlo;150g/180g;1,3,7;XL;6.30 €;kuracie;;rezeň;cestovina;
 Prir.brav. rezeň s brokolicou a orieškami, hranolky;Hlavné jedlo;150g/200g;1,7;;6.90 €;bravčove;;rezeň;hranolky;
-Prír.brav.rezeň na zázvore a zelenej fazuľke,?ryža, ?hranolky  ;Hlavné jedlo;200g/150g/100g;1,7;2X;7.10 €;bravčove;;rezeň;ryža;hranolky
-Prír.brav.rezeň s broskyňou a syrom, ?ryža, ?hranolky;Hlavné jedlo;200g/150g/100g;1,7;2X;7.10 €;bravčove;;rezeň;ryža;hranolky
+Prír.brav.rezeň na zázvore a zelenej fazuľke,½ryža, ½hranolky  ;Hlavné jedlo;200g/150g/100g;1,7;2X;7.10 €;bravčove;;rezeň;ryža;hranolky
+Prír.brav.rezeň s broskyňou a syrom, ½ryža, ½hranolky;Hlavné jedlo;200g/150g/100g;1,7;2X;7.10 €;bravčove;;rezeň;ryža;hranolky
 Prír.bravč.rezeň na rasci, slovenská ryža, kyslá uhorka;Hlavné jedlo;200g/180g;1;2X;7.10 €;bravčove;;rezeň;slovenská ryža;
 Prír.bravč.rezeň na rasci, slovenská ryža, kyslá uhorka;Hlavné jedlo;100g/180g;1;;5.50 €;bravčove;;rezeň;slovenská ryža;
 Prír.bravč.rezeň na rasci, slovenská ryža, kyslá uhorka;Hlavné jedlo;150g/180g;1;XL;6.30 €;bravčove;;rezeň;slovenská ryža;
@@ -637,8 +637,8 @@ Prír.bravč.rezeň na spôsob Chilli con carne, ryža;Hlavné jedlo;150g/200g;1
 Prír.bravč.rezeň na šampiňónoch, ryža, kyslá uhorka;Hlavné jedlo;100g/200g;1;2X;7.10 €;bravčove;;rezeň;ryža;
 Prír.bravč.rezeň na šampiňónoch, ryža, kyslá uhorka;Hlavné jedlo;100g/200g;1;;5.50 €;bravčove;;rezeň;ryža;
 Prír.bravč.rezeň na šampiňónoch, ryža, kyslá uhorka;Hlavné jedlo;150g/200g;1;XL;6.30 €;bravčove;;rezeň;ryža;
-Prír.bravč.rezeň na zázvore a zelenej fazuľke, ?ryža, ?hranolky;Hlavné jedlo;100g/150g/150g4,00 €;1,7;;5.50 €;bravčove;;rezeň;ryža;hranolky
-Prír.bravč.rezeň na zázvore a zelenej fazuľke, ?ryža, ?hranolky;Hlavné jedlo;150g/150g/100g;1,7;XL;6.30 €;bravčove;;rezeň;ryža;hranolky
+Prír.bravč.rezeň na zázvore a zelenej fazuľke, ½ryža, ½hranolky;Hlavné jedlo;100g/150g/150g4,00 €;1,7;;5.50 €;bravčove;;rezeň;ryža;hranolky
+Prír.bravč.rezeň na zázvore a zelenej fazuľke, ½ryža, ½hranolky;Hlavné jedlo;150g/150g/100g;1,7;XL;6.30 €;bravčove;;rezeň;ryža;hranolky
 Prír.bravč.rezeň na zelenine, fritované zemiaky;Hlavné jedlo;200g/200g;1;2X;7.10 €;bravčove;;rezeň;fritované zemiaky;
 Prír.bravč.rezeň na zelenine, fritované zemiaky;Hlavné jedlo;100g/200g;1;;5.50 €;bravčove;;rezeň;fritované zemiaky;
 Prír.bravč.rezeň na zelenine, fritované zemiaky;Hlavné jedlo;150g/200g;1;XL;6.30 €;bravčove;;rezeň;fritované zemiaky;
@@ -664,9 +664,9 @@ Prír.bravč.rezeň s farebnou paprikou a kečupom, americké zemiaky;Hlavné je
 Prír.bravč.rezeň s farebnou paprikou a kečupom, americké zemiaky;Hlavné jedlo;150g/200g;1;XL;6.30 €;bravčove;;rezeň;americké zemiaky;
 Prír.bravč.rezeň s gril.zel, čerstvý zel.šalát, frit.zem.;Hlavné jedlo;150g/200g;1;;6.90 €;bravčove;;rezeň;fritované zemiaky;
 Prír.bravč.rezeň s gril.zel., čerstvou zeleninou a hranolky;Hlavné jedlo;150g/200g;1;;6.90 €;bravčove;;rezeň;hranolky;
-Prír.bravč.rezeň s grilovanou zeleninou, ?ryža, ?hranolky;Hlavné jedlo;200g/150g/100g;1;2X;7.10 €;bravčove;;rezeň;ryža;hranolky
-Prír.bravč.rezeň s grilovanou zeleninou, ?ryža, ?hranolky;Hlavné jedlo;100g/150g/100g;1;;5.50 €;bravčove;;rezeň;ryža;hranolky
-Prír.bravč.rezeň s grilovanou zeleninou, ?ryža, ?hranolky;Hlavné jedlo;150g/150g/100g;1;XL;6.30 €;bravčove;;rezeň;ryža;hranolky
+Prír.bravč.rezeň s grilovanou zeleninou, ½ryža, ½hranolky;Hlavné jedlo;200g/150g/100g;1;2X;7.10 €;bravčove;;rezeň;ryža;hranolky
+Prír.bravč.rezeň s grilovanou zeleninou, ½ryža, ½hranolky;Hlavné jedlo;100g/150g/100g;1;;5.50 €;bravčove;;rezeň;ryža;hranolky
+Prír.bravč.rezeň s grilovanou zeleninou, ½ryža, ½hranolky;Hlavné jedlo;150g/150g/100g;1;XL;6.30 €;bravčove;;rezeň;ryža;hranolky
 Prír.bravč.rezeň s grilovanou zeleninou, hranolky;Hlavné jedlo;150g/200g;1;;6.90 €;bravčove;;rezeň;hranolky;
 Prír.bravč.rezeň s hráškovou ryžou a šalátom s mrazenej zeleniny;Hlavné jedlo;200g/200g;1;2X;7.10 €;bravčove;;rezeň;hrášková ryža;
 Prír.bravč.rezeň s hráškovou ryžou a šalátom s mrazenej zeleniny;Hlavné jedlo;100g/200g;1;;5.50 €;bravčove;;rezeň;hrášková ryža;
@@ -685,9 +685,9 @@ Prír.bravč.rezeň s jarnou zeleninou, americké zemiaky;Hlavné jedlo;100g/200
 Prír.bravč.rezeň s jarnou zeleninou, americké zemiaky;Hlavné jedlo;150g/200g;1;XL;6.30 €;bravčove;;rezeň;americké zemiaky;
 Prír.bravč.rezeň s karotkou a kukuricou, ryža;Hlavné jedlo;100g/200g;1;;5.50 €;bravčove;;rezeň;ryža;
 Prír.bravč.rezeň s karotkou a kukuricou, ryža;Hlavné jedlo;150g/200g;1;XL;6.30 €;bravčove;;rezeň;ryža;
-Prír.bravč.rezeň s klobásou a slaninou, ?ryža, ?hranolky;Hlavné jedlo;200g/150g/100g;1;2X;7.10 €;bravčove;;rezeň;ryža;hranolky
-Prír.bravč.rezeň s klobásou a slaninou, ?ryža, ?hranolky;Hlavné jedlo;100g/150g/100g;1;;5.50 €;bravčove;;rezeň;ryža;hranolky
-Prír.bravč.rezeň s klobásou a slaninou, ?ryža, ?hranolky;Hlavné jedlo;150g/150g/100g;1;XL;6.30 €;bravčove;;rezeň;ryža;hranolky
+Prír.bravč.rezeň s klobásou a slaninou, ½ryža, ½hranolky;Hlavné jedlo;200g/150g/100g;1;2X;7.10 €;bravčove;;rezeň;ryža;hranolky
+Prír.bravč.rezeň s klobásou a slaninou, ½ryža, ½hranolky;Hlavné jedlo;100g/150g/100g;1;;5.50 €;bravčove;;rezeň;ryža;hranolky
+Prír.bravč.rezeň s klobásou a slaninou, ½ryža, ½hranolky;Hlavné jedlo;150g/150g/100g;1;XL;6.30 €;bravčove;;rezeň;ryža;hranolky
 Prír.bravč.rezeň s klobásou a slaninou, americké zemiaky;Hlavné jedlo;200g/200g;1;2X;7.10 €;bravčove;;rezeň;americké zemiaky;
 Prír.bravč.rezeň s klobásou a slaninou, americké zemiaky;Hlavné jedlo;100g/200g;1;;5.50 €;bravčove;;rezeň;americké zemiaky;
 Prír.bravč.rezeň s klobásou a slaninou, americké zemiaky;Hlavné jedlo;150g/200g;1;XL;6.30 €;bravčove;;rezeň;americké zemiaky;
@@ -714,16 +714,16 @@ Prír.bravč.rezeň s kôprovou omáčkou, varené zemiaky;Hlavné jedlo;150g/20
 Prír.bravč.rezeň s kur.pečeňou, kar.jablkom a mandľ.lup., fritované zemiaky;Hlavné jedlo;150g/200g;1, 8;;6.90 €;bravčove;;rezeň;fritované zemiaky;
 Prír.bravč.rezeň s olivami a plesnivým syrom, hranolky;Hlavné jedlo;150g/200g;1;;6.90 €;bravčove;;rezeň;hranolky;
 Prír.bravč.rezeň s olivami a plesnivým syrom, krokety;Hlavné jedlo;150g/200g;1;;6.90 €;bravčove;;rezeň;krokety;
-Prír.bravč.rezeň s pórom a kukuricou, ?ryža, ?hranolky;Hlavné jedlo;200g/150g/150g4,00 €;1;2X;7.10 €;bravčove;;rezeň;ryža;hranolky
-Prír.bravč.rezeň s pórom a kukuricou, ?ryža, ?hranolky;Hlavné jedlo;100g/150g/150g4,00 €;1;;5.50 €;bravčove;;rezeň;ryža;hranolky
-Prír.bravč.rezeň s pórom a kukuricou, ?ryža, ?hranolky;Hlavné jedlo;150g/150g/150g4,00 €;1;XL;6.30 €;bravčove;;rezeň;ryža;hranolky
-Prír.bravč.rezeň s volským okom a fazuľkou, ?ryža, ?hranolky;Hlavné jedlo;200g/150g/100g;1,3;2X;7.10 €;bravčove;;rezeň;ryža;hranolky
-Prír.bravč.rezeň s volským okom, ?ryža, ?hranolky, zel.šalát;Hlavné jedlo;200g/150g/100g;1,3;2X;7.10 €;bravčove;;rezeň;ryža;hranolky
-Prír.bravč.rezeň s volským okom, ?ryža, ?hranolky, zel.šalát;Hlavné jedlo;100g/150g/100g;1,3;;5.50 €;bravčove;;rezeň;ryža;hranolky
-Prír.bravč.rezeň s volským okom, ?ryža, ?hranolky, zel.šalát;Hlavné jedlo;150g/150g/100g;1,3;XL;6.30 €;bravčove;;rezeň;ryža;hranolky
-Prír.bravč.rezeň s volským okom, ?ryža, zel.šalát;Hlavné jedlo;200g/200g;1,3;2X;7.10 €;bravčove;;rezeň;ryža;hranolky
-Prír.bravč.rezeň s volským okom, ?ryža, zel.šalát;Hlavné jedlo;100g/200g;1,3;;5.50 €;bravčove;;rezeň;ryža;hranolky
-Prír.bravč.rezeň s volským okom, ?ryža,1/2 hranolky, zel.šalát;Hlavné jedlo;100g/150g/100g;1,3;;5.50 €;bravčove;;rezeň;ryža;hranolky
+Prír.bravč.rezeň s pórom a kukuricou, ½ryža, ½hranolky;Hlavné jedlo;200g/150g/150g4,00 €;1;2X;7.10 €;bravčove;;rezeň;ryža;hranolky
+Prír.bravč.rezeň s pórom a kukuricou, ½ryža, ½hranolky;Hlavné jedlo;100g/150g/150g4,00 €;1;;5.50 €;bravčove;;rezeň;ryža;hranolky
+Prír.bravč.rezeň s pórom a kukuricou, ½ryža, ½hranolky;Hlavné jedlo;150g/150g/150g4,00 €;1;XL;6.30 €;bravčove;;rezeň;ryža;hranolky
+Prír.bravč.rezeň s volským okom a fazuľkou, ½ryža, ½hranolky;Hlavné jedlo;200g/150g/100g;1,3;2X;7.10 €;bravčove;;rezeň;ryža;hranolky
+Prír.bravč.rezeň s volským okom, ½ryža, ½hranolky, zel.šalát;Hlavné jedlo;200g/150g/100g;1,3;2X;7.10 €;bravčove;;rezeň;ryža;hranolky
+Prír.bravč.rezeň s volským okom, ½ryža, ½hranolky, zel.šalát;Hlavné jedlo;100g/150g/100g;1,3;;5.50 €;bravčove;;rezeň;ryža;hranolky
+Prír.bravč.rezeň s volským okom, ½ryža, ½hranolky, zel.šalát;Hlavné jedlo;150g/150g/100g;1,3;XL;6.30 €;bravčove;;rezeň;ryža;hranolky
+Prír.bravč.rezeň s volským okom, ½ryža, zel.šalát;Hlavné jedlo;200g/200g;1,3;2X;7.10 €;bravčove;;rezeň;ryža;hranolky
+Prír.bravč.rezeň s volským okom, ½ryža, zel.šalát;Hlavné jedlo;100g/200g;1,3;;5.50 €;bravčove;;rezeň;ryža;hranolky
+Prír.bravč.rezeň s volským okom, ½ryža,1/2 hranolky, zel.šalát;Hlavné jedlo;100g/150g/100g;1,3;;5.50 €;bravčove;;rezeň;ryža;hranolky
 Prír.bravč.rezeň s volským okom, fritované zemiaky;Hlavné jedlo;200g/200g;3;2X;7.10 €;bravčove;;rezeň;fritované zemiaky;
 Prír.bravč.rezeň s volským okom, fritované zemiaky;Hlavné jedlo;100g/200g;3;;5.50 €;bravčove;;rezeň;fritované zemiaky;
 Prír.bravč.rezeň s volským okom, fritované zemiaky;Hlavné jedlo;150g/200g;3;XL;6.30 €;bravčove;;rezeň;fritované zemiaky;
@@ -740,8 +740,8 @@ Prír.bravč.rezeň so slaninkou a cibuľou, opek.zemiaky;Hlavné jedlo;200g/180
 Prír.bravč.rezeň so slaninkou a cibuľou, opek.zemiaky;Hlavné jedlo;100g/180g;1;;5.50 €;bravčove;;rezeň;opekané zemiaky;
 Prír.bravč.rezeň so slaninkou a cibuľou, opek.zemiaky;Hlavné jedlo;150g/180g;1;XL;6.30 €;bravčove;;rezeň;opekané zemiaky;
 Prír.bravč.rezeň so sušenými slivkami, sliv.omáčkou a slaninou, hranolky;Hlavné jedlo;150g/200g;1;;6.90 €;bravčove;;rezeň;hranolky;
-Prír.bravč.rezeň so šampiňónmi, ?ryža, ?hranolky;Hlavné jedlo;100g/150g/100g;1;;5.50 €;bravčove;;rezeň;ryža;hranolky
-Prír.bravč.rezeň so šampiňónmi, ?ryža, ?hranolky;Hlavné jedlo;150g/150g/100g;1;XL;6.30 €;bravčove;;rezeň;ryža;hranolky
+Prír.bravč.rezeň so šampiňónmi, ½ryža, ½hranolky;Hlavné jedlo;100g/150g/100g;1;;5.50 €;bravčove;;rezeň;ryža;hranolky
+Prír.bravč.rezeň so šampiňónmi, ½ryža, ½hranolky;Hlavné jedlo;150g/150g/100g;1;XL;6.30 €;bravčove;;rezeň;ryža;hranolky
 Prír.bravč.rezeň so šampiňónmi, opekané zemiaky;Hlavné jedlo;200g/200g;1;2X;7.10 €;bravčove;;rezeň;opekané zemiaky;
 Prír.bravč.rezeň so šampiňónmi, opekané zemiaky;Hlavné jedlo;100g/200g;1;;5.50 €;bravčove;;rezeň;opekané zemiaky;
 Prír.bravč.rezeň so šampiňónmi, opekané zemiaky;Hlavné jedlo;150g/200g;1;XL;6.30 €;bravčove;;rezeň;opekané zemiaky;
@@ -750,9 +750,9 @@ Prír.bravč.rezeň so šampiňónmi, ryža;Hlavné jedlo;100g/200g;1;;5.50 €;
 Prír.bravč.rezeň so šampiňónmi, ryža;Hlavné jedlo;150g/200g;1;XL;6.30 €;bravčove;;rezeň;ryža;
 Prír.bravč.rezeň so šampiňónmi, zemiaky;Hlavné jedlo;200g/200g;1;2X;7.10 €;bravčove;;rezeň;varené zemiaky;
 Prír.bravč.rezeň so šampiňónmi, zemiaky;Hlavné jedlo;150g/200g;1;XL;6.30 €;bravčove;;rezeň;varené zemiaky;
-Prír.bravč.rezeň so šunkou a syrom, ?ryža, ?hranolky;Hlavné jedlo;200g/150g/100g;1;2X;7.10 €;bravčove;;rezeň;ryža;hranolky
-Prír.bravč.rezeň so šunkou a syrom, ?ryža, ?hranolky;Hlavné jedlo;100g/150g/100g;1;;5.50 €;bravčove;;rezeň;ryža;hranolky
-Prír.bravč.rezeň so šunkou a syrom, ?ryža, ?hranolky;Hlavné jedlo;150g/150g/100g;1;XL;6.30 €;bravčove;;rezeň;ryža;hranolky
+Prír.bravč.rezeň so šunkou a syrom, ½ryža, ½hranolky;Hlavné jedlo;200g/150g/100g;1;2X;7.10 €;bravčove;;rezeň;ryža;hranolky
+Prír.bravč.rezeň so šunkou a syrom, ½ryža, ½hranolky;Hlavné jedlo;100g/150g/100g;1;;5.50 €;bravčove;;rezeň;ryža;hranolky
+Prír.bravč.rezeň so šunkou a syrom, ½ryža, ½hranolky;Hlavné jedlo;150g/150g/100g;1;XL;6.30 €;bravčove;;rezeň;ryža;hranolky
 Prír.bravč.rezeň so šunkou a syrom, ryža;Hlavné jedlo;200g/300g;1;2X;7.10 €;bravčove;;rezeň;ryža;
 Prír.bravč.rezeň so šunkou a syrom, ryža;Hlavné jedlo;100g/300g;1;;5.50 €;bravčove;;rezeň;ryža;
 Prír.bravč.rezeň so šunkou a syrom, ryža;Hlavné jedlo;150g/300g;1;XL;6.30 €;bravčove;;rezeň;ryža;
@@ -767,21 +767,21 @@ Prír.bravč.rezeň so zelenou fazuľkou, opekané zemiaky;Hlavné jedlo;100g/20
 Prír.bravč.rezeň so zelenou fazuľkou, opekané zemiaky;Hlavné jedlo;150g/200g;1;XL;6.30 €;bravčove;;rezeň;opekané zemiaky;
 Prír.bravč.rezeň so zelenou fazuľkou, varené zemiaky;Hlavné jedlo;100g/200g;1;;5.50 €;bravčove;;rezeň;varené zemiaky;
 Prír.bravč.rezeň so zelenou fazuľkou, varené zemiaky;Hlavné jedlo;150g/200g;1;XL;6.30 €;bravčove;;rezeň;varené zemiaky;
-Prír.bravč.rezeň so znojemskou omáčkou, ?ryža, ?hranolky;Hlavné jedlo;200g/100g/100g;1;2X;7.10 €;bravčove;;rezeň;ryža;hranolky
-Prír.bravč.rezeň so znojemskou omáčkou, ?ryža, ?hranolky;Hlavné jedlo;100g/100g/100g;1;;5.50 €;bravčove;;rezeň;ryža;hranolky
-Prír.bravč.rezeň so znojemskou omáčkou, ?ryža, ?hranolky;Hlavné jedlo;150g/100g/100g;1;XL;6.30 €;bravčove;;rezeň;ryža;hranolky
+Prír.bravč.rezeň so znojemskou omáčkou, ½ryža, ½hranolky;Hlavné jedlo;200g/100g/100g;1;2X;7.10 €;bravčove;;rezeň;ryža;hranolky
+Prír.bravč.rezeň so znojemskou omáčkou, ½ryža, ½hranolky;Hlavné jedlo;100g/100g/100g;1;;5.50 €;bravčove;;rezeň;ryža;hranolky
+Prír.bravč.rezeň so znojemskou omáčkou, ½ryža, ½hranolky;Hlavné jedlo;150g/100g/100g;1;XL;6.30 €;bravčove;;rezeň;ryža;hranolky
 Prír.bravč.rezeň so znojemskou omáčkou, cestovina;Hlavné jedlo;200g/180g;1,3,7;2X;7.10 €;bravčove;;rezeň;cestovina;
 Prír.bravč.rezeň so znojemskou omáčkou, cestovina;Hlavné jedlo;100g/180g;1,3,7;;5.50 €;bravčove;;rezeň;cestovina;
 Prír.bravč.rezeň so znojemskou omáčkou, cestovina;Hlavné jedlo;150g/180g;1,3,7;XL;6.30 €;bravčove;;rezeň;cestovina;
-Prír.bravč.rezeň, ?ryža, ?frit.zem., zel.šalát;Hlavné jedlo;200g/150g/100g;1;2X;7.10 €;bravčove;;rezeň;ryža;fritované zemiaky
-Prír.bravč.rezeň, ?ryža, ?frit.zem., zel.šalát;Hlavné jedlo;100g/150g/100g;1;;5.50 €;bravčove;;rezeň;ryža;fritované zemiaky
-Prír.bravč.rezeň, ?ryža, ?frit.zem., zel.šalát;Hlavné jedlo;150g/150g/100g;1;XL;6.30 €;bravčove;;rezeň;ryža;fritované zemiaky
-Prír.bravč.rezeň, ?ryža, ?hranolky, zel. obloha;Hlavné jedlo;100g/150g/100g;1;;5.50 €;bravčove;;rezeň;ryža;hranolky
-Prír.bravč.rezeň, ?ryža, ?hranolky, zel.obloha;Hlavné jedlo;200g/150g/100g;1;2X;7.10 €;bravčove;;rezeň;ryža;hranolky
-Prír.bravč.rezeň, ?ryža, ?hranolky, zel.obloha;Hlavné jedlo;150g/150g/100g;1;XL;6.30 €;bravčove;;rezeň;ryža;hranolky
-Prír.bravč.rezeň, ?ryža, ?hranolky, zelenina na masle;Hlavné jedlo;200g/150g/100g;1;2X;7.10 €;bravčove;;rezeň;ryža;hranolky
-Prír.bravč.rezeň, ?ryža, ?hranolky, zelenina na masle;Hlavné jedlo;100g/150g/100g;1;;5.50 €;bravčove;;rezeň;ryža;hranolky
-Prír.bravč.rezeň, ?ryža, ?hranolky, zelenina na masle;Hlavné jedlo;150g/150g/100g;1;XL;6.30 €;bravčove;;rezeň;ryža;hranolky
+Prír.bravč.rezeň, ½ryža, ½frit.zem., zel.šalát;Hlavné jedlo;200g/150g/100g;1;2X;7.10 €;bravčove;;rezeň;ryža;fritované zemiaky
+Prír.bravč.rezeň, ½ryža, ½frit.zem., zel.šalát;Hlavné jedlo;100g/150g/100g;1;;5.50 €;bravčove;;rezeň;ryža;fritované zemiaky
+Prír.bravč.rezeň, ½ryža, ½frit.zem., zel.šalát;Hlavné jedlo;150g/150g/100g;1;XL;6.30 €;bravčove;;rezeň;ryža;fritované zemiaky
+Prír.bravč.rezeň, ½ryža, ½hranolky, zel. obloha;Hlavné jedlo;100g/150g/100g;1;;5.50 €;bravčove;;rezeň;ryža;hranolky
+Prír.bravč.rezeň, ½ryža, ½hranolky, zel.obloha;Hlavné jedlo;200g/150g/100g;1;2X;7.10 €;bravčove;;rezeň;ryža;hranolky
+Prír.bravč.rezeň, ½ryža, ½hranolky, zel.obloha;Hlavné jedlo;150g/150g/100g;1;XL;6.30 €;bravčove;;rezeň;ryža;hranolky
+Prír.bravč.rezeň, ½ryža, ½hranolky, zelenina na masle;Hlavné jedlo;200g/150g/100g;1;2X;7.10 €;bravčove;;rezeň;ryža;hranolky
+Prír.bravč.rezeň, ½ryža, ½hranolky, zelenina na masle;Hlavné jedlo;100g/150g/100g;1;;5.50 €;bravčove;;rezeň;ryža;hranolky
+Prír.bravč.rezeň, ½ryža, ½hranolky, zelenina na masle;Hlavné jedlo;150g/150g/100g;1;XL;6.30 €;bravčove;;rezeň;ryža;hranolky
 Prír.bravč.rezeň, hrášková ryža, obloha;Hlavné jedlo;200g/200g;1;2X;7.10 €;bravčove;;rezeň;ryža;
 Prír.bravč.rezeň, hrášková ryža, obloha;Hlavné jedlo;100g/200g;1;;5.50 €;bravčove;;rezeň;ryža;
 Prír.bravč.rezeň, hrášková ryža, obloha;Hlavné jedlo;150g/200g;1;XL;6.30 €;bravčove;;rezeň;ryža;
@@ -795,13 +795,13 @@ Prír.bravč.rezeň, slovenská ryža, kyslá uhorka;Hlavné jedlo;100g/180g;1;2
 Prír.bravč.rezeň, slovenská ryža, kyslá uhorka;Hlavné jedlo;100g/180g;1;;5.50 €;bravčove;;rezeň;slovenská ryža;
 Prír.bravč.rezeň, slovenská ryža, kyslá uhorka;Hlavné jedlo;100g/180g;1;XL;6.30 €;bravčove;;rezeň;slovenská ryža;
 Prír.bravč.rezeň, zem. krokety,  zel.obloha;Hlavné jedlo;150g/200g;1;;6.90 €;bravčove;;rezeň;krokety;
-Prír.kur. rezeň s jablk.-zeler.omáčkou, ?ryža, ?hranolky;Hlavné jedlo;150g/150g/150g;1,7;XL;6.30 €;kuracie;;rezeň;ryža;hranolky
+Prír.kur. rezeň s jablk.-zeler.omáčkou, ½ryža, ½hranolky;Hlavné jedlo;150g/150g/150g;1,7;XL;6.30 €;kuracie;;rezeň;ryža;hranolky
 Prír.kur.rezeň , baby mrkva na masle, zem.kaša;Hlavné jedlo;200g/200g;1,7;2X;7.10 €;kuracie;;rezeň;zemiaková kaša;
 Prír.kur.rezeň , opekané zemiaky, mrkvovo-jablkový šalát;Hlavné jedlo;150g/150g/100g;1;XL;6.30 €;kuracie;;rezeň;opekané zemiaky;
 Prír.kur.rezeň , opekané zemiaky,mrkvovo-jablkový šalát;Hlavné jedlo;200g/150g/100g;1;2X;7.10 €;kuracie;;rezeň;opekané zemiaky;
-Prír.kur.rezeň na bylinkovom masle, ?ryža, ?hranolky;Hlavné jedlo;200g/150g/100g;1;2X;7.10 €;kuracie;;rezeň;ryža;hranolky
-Prír.kur.rezeň na bylinkovom masle, ?ryža, ?hranolky;Hlavné jedlo;100g/150g/100g;1;;5.50 €;kuracie;;rezeň;ryža;hranolky
-Prír.kur.rezeň na bylinkovom masle, ?ryža, ?hranolky;Hlavné jedlo;150g/150g/100g;1;XL;6.30 €;kuracie;;rezeň;ryža;hranolky
+Prír.kur.rezeň na bylinkovom masle, ½ryža, ½hranolky;Hlavné jedlo;200g/150g/100g;1;2X;7.10 €;kuracie;;rezeň;ryža;hranolky
+Prír.kur.rezeň na bylinkovom masle, ½ryža, ½hranolky;Hlavné jedlo;100g/150g/100g;1;;5.50 €;kuracie;;rezeň;ryža;hranolky
+Prír.kur.rezeň na bylinkovom masle, ½ryža, ½hranolky;Hlavné jedlo;150g/150g/100g;1;XL;6.30 €;kuracie;;rezeň;ryža;hranolky
 Prír.kur.rezeň na smotane, cestovina;Hlavné jedlo;200g/180g;1,3,7;2X;7.10 €;kuracie;;rezeň;cestovina;
 Prír.kur.rezeň na smotane, cestovina;Hlavné jedlo;100g/180g;1,3,7;;5.50 €;kuracie;;rezeň;cestovina;
 Prír.kur.rezeň na spôsob Chilli con carne, ryža;Hlavné jedlo;200g/200g;1;2X;7.10 €;kuracie;;rezeň;ryža;
@@ -816,24 +816,24 @@ Prír.kur.rezeň s ananásom a jablkom, opekané zemiaky;Hlavné jedlo;200g/200g
 Prír.kur.rezeň s ananásom a jablkom, opekané zemiaky;Hlavné jedlo;100g/200g;1;;5.50 €;kuracie;;rezeň;opekané zemiaky;
 Prír.kur.rezeň s ananásom a jablkom, opekané zemiaky;Hlavné jedlo;150g/200g;1;XL;6.30 €;kuracie;;rezeň;opekané zemiaky;
 Prír.kur.rezeň s ananásom a jablkom,1/2 ryža,1/2 hranolky;Hlavné jedlo;200g/150g/100g;1;2X;7.10 €;kuracie;;rezeň;ryža;hranolky
-Prír.kur.rezeň s anglickou zeleninou, ?ryža,?hranolky;Hlavné jedlo;200g/150g/100g;1;2X;7.10 €;kuracie;;rezeň;ryža;hranolky
-Prír.kur.rezeň s anglickou zeleninou, ?ryža,?hranolky;Hlavné jedlo;100g/150g/100g;1;;5.50 €;kuracie;;rezeň;ryža;hranolky
-Prír.kur.rezeň s anglickou zeleninou, ?ryža,?hranolky;Hlavné jedlo;150g/150g/100g;1;XL;6.30 €;kuracie;;rezeň;ryža;hranolky
+Prír.kur.rezeň s anglickou zeleninou, ½ryža,½hranolky;Hlavné jedlo;200g/150g/100g;1;2X;7.10 €;kuracie;;rezeň;ryža;hranolky
+Prír.kur.rezeň s anglickou zeleninou, ½ryža,½hranolky;Hlavné jedlo;100g/150g/100g;1;;5.50 €;kuracie;;rezeň;ryža;hranolky
+Prír.kur.rezeň s anglickou zeleninou, ½ryža,½hranolky;Hlavné jedlo;150g/150g/100g;1;XL;6.30 €;kuracie;;rezeň;ryža;hranolky
 Prír.kur.rezeň s anglickou zeleninou, hranolky;Hlavné jedlo;150g/200g;1;;6.90 €;kuracie;;rezeň;hranolky;
 Prír.kur.rezeň s anglickou zeleninou, ryžové krokety;Hlavné jedlo;150g/200g;1;;6.90 €;kuracie;;rezeň;ryžové krokety;
-Prír.kur.rezeň s brokolicou a orieškami, ?ryža, ?hranolky;Hlavné jedlo;200g/150g/150g4,00 €;1,8;2X;7.10 €;kuracie;;rezeň;ryža;hranolky
-Prír.kur.rezeň s brokolicou a orieškami, ?ryža, ?hranolky;Hlavné jedlo;100g/150g/150g4,00 €;1,8;;5.50 €;kuracie;;rezeň;ryža;hranolky
-Prír.kur.rezeň s brokolicou a orieškami, ?ryža, ?hranolky;Hlavné jedlo;150g/150g/150g4,00 €;1,8;XL;6.30 €;kuracie;;rezeň;ryža;hranolky
-Prír.kur.rezeň s broskyňou a syrom, ?ryža, ?hranolky;Hlavné jedlo;100g/150g/100g;1,7;;5.50 €;kuracie;;rezeň;ryža;hranolky
-Prír.kur.rezeň s broskyňou a syrom, ?ryža, ?hranolky;Hlavné jedlo;150g/150g/100g;1,7;XL;6.30 €;kuracie;;rezeň;ryža;hranolky
+Prír.kur.rezeň s brokolicou a orieškami, ½ryža, ½hranolky;Hlavné jedlo;200g/150g/150g4,00 €;1,8;2X;7.10 €;kuracie;;rezeň;ryža;hranolky
+Prír.kur.rezeň s brokolicou a orieškami, ½ryža, ½hranolky;Hlavné jedlo;100g/150g/150g4,00 €;1,8;;5.50 €;kuracie;;rezeň;ryža;hranolky
+Prír.kur.rezeň s brokolicou a orieškami, ½ryža, ½hranolky;Hlavné jedlo;150g/150g/150g4,00 €;1,8;XL;6.30 €;kuracie;;rezeň;ryža;hranolky
+Prír.kur.rezeň s broskyňou a syrom, ½ryža, ½hranolky;Hlavné jedlo;100g/150g/100g;1,7;;5.50 €;kuracie;;rezeň;ryža;hranolky
+Prír.kur.rezeň s broskyňou a syrom, ½ryža, ½hranolky;Hlavné jedlo;150g/150g/100g;1,7;XL;6.30 €;kuracie;;rezeň;ryža;hranolky
 Prír.kur.rezeň s broskyňou a syrom, ryža;Hlavné jedlo;200g/200g;1,7;2X;7.10 €;kuracie;;rezeň;ryža;
 Prír.kur.rezeň s broskyňou a syrom, ryža;Hlavné jedlo;100g/200g;1,7;;5.50 €;kuracie;;rezeň;ryža;
 Prír.kur.rezeň s broskyňou a syrom, ryža;Hlavné jedlo;150g/200g;1,7;XL;6.30 €;kuracie;;rezeň;ryža;
 Prír.kur.rezeň s broskyňou a syrom, ryža s hráškom;Hlavné jedlo;200g/200g;1,7;2X;7.10 €;kuracie;;rezeň;ryža;
 Prír.kur.rezeň s broskyňou a syrom, ryža s hráškom;Hlavné jedlo;100g/200g;1,7;;5.50 €;kuracie;;rezeň;ryža;
 Prír.kur.rezeň s broskyňou a syrom, ryža s hráškom;Hlavné jedlo;150g/200g;1,7;XL;6.30 €;kuracie;;rezeň;ryža;
-Prír.kur.rezeň s cibuľovo-horčicovou omáčkou, ?ryža, ?hranolky;Hlavné jedlo;200g/150g/100g;1, 10;2X;7.10 €;kuracie;;rezeň;ryža;hranolky
-Prír.kur.rezeň s cibuľovo-horčicovou omáčkou, ?ryža, ?hranolky;Hlavné jedlo;150g/150g/100g;1, 10;XL;6.30 €;kuracie;;rezeň;ryža;hranolky
+Prír.kur.rezeň s cibuľovo-horčicovou omáčkou, ½ryža, ½hranolky;Hlavné jedlo;200g/150g/100g;1, 10;2X;7.10 €;kuracie;;rezeň;ryža;hranolky
+Prír.kur.rezeň s cibuľovo-horčicovou omáčkou, ½ryža, ½hranolky;Hlavné jedlo;150g/150g/100g;1, 10;XL;6.30 €;kuracie;;rezeň;ryža;hranolky
 Prír.kur.rezeň s cibuľovo-horčicovou omáčkou, op.zem., šalát;Hlavné jedlo;200g/200g;1, 10;2X;7.10 €;kuracie;;rezeň;opekané zemiaky;
 Prír.kur.rezeň s cibuľovo-horčicovou omáčkou, op.zem., šalát;Hlavné jedlo;100g/200g;1, 10;;5.50 €;kuracie;;rezeň;opekané zemiaky;
 Prír.kur.rezeň s cibuľovo-horčicovou omáčkou, op.zem., šalát;Hlavné jedlo;150g/200g;1, 10;XL;6.30 €;kuracie;;rezeň;opekané zemiaky;
@@ -842,7 +842,7 @@ Prír.kur.rezeň s farebnou zeleninou na masle, ryža;Hlavné jedlo;200g/200g;1,
 Prír.kur.rezeň s farebnou zeleninou na masle, ryža;Hlavné jedlo;100g/200g;1,7;;5.50 €;kuracie;;rezeň;ryža;
 Prír.kur.rezeň s farebnou zeleninou na masle, ryža;Hlavné jedlo;150g/200g;1,7;XL;6.30 €;kuracie;;rezeň;ryža;
 Prír.kur.rezeň s gril.zel.,(cuketa, baklažán, paprika), hranolky;Hlavné jedlo;150g/200g;1;;6.90 €;kuracie;;rezeň;hranolky;
-Prír.kur.rezeň s grilovanou zeleninou, ?ryža,?hranolky;Hlavné jedlo;200g/150g/100g;1;2X;7.10 €;kuracie;;rezeň;ryža;hranolky
+Prír.kur.rezeň s grilovanou zeleninou, ½ryža,½hranolky;Hlavné jedlo;200g/150g/100g;1;2X;7.10 €;kuracie;;rezeň;ryža;hranolky
 Prír.kur.rezeň s grilovanou zeleninou, hranolky;Hlavné jedlo;150g/200g;1;;6.90 €;kuracie;;rezeň;hranolky;
 Prír.kur.rezeň s grilovanou zeleninou, opekané zemiaky;Hlavné jedlo;200g/200g;1;2X;7.10 €;kuracie;;rezeň;opekané zemiaky;
 Prír.kur.rezeň s grilovanou zeleninou, opekané zemiaky;Hlavné jedlo;100g/200g;1;;5.50 €;kuracie;;rezeň;opekané zemiaky;
@@ -865,17 +865,17 @@ Prír.kur.rezeň s hubovo-smotanovou omáčkou, fritované zemiaky;Hlavné jedlo
 Prír.kur.rezeň s hubovo-smotanovou omáčkou, knedle;Hlavné jedlo;200g/160g;1,3,7;2X;7.10 €;kuracie;;rezeň;knedľa;
 Prír.kur.rezeň s hubovo-smotanovou omáčkou, knedle;Hlavné jedlo;100g/160g;1,3,7;;5.50 €;kuracie;;rezeň;knedľa;
 Prír.kur.rezeň s hubovo-smotanovou omáčkou, knedle;Hlavné jedlo;150g/160g;1,3,7;XL;6.30 €;kuracie;;rezeň;knedľa;
-Prír.kur.rezeň s hubovou omáčkou, ?ryža, ?hranolky;Hlavné jedlo;200g/150g/100g;1,7;2X;7.10 €;kuracie;;rezeň;ryža;hranolky
-Prír.kur.rezeň s hubovou omáčkou, ?ryža, ?hranolky;Hlavné jedlo;100g/150g/100g;1,7;;5.50 €;kuracie;;rezeň;ryža;hranolky
-Prír.kur.rezeň s hubovou omáčkou, ?ryža, ?hranolky;Hlavné jedlo;150g/150g/100g;1,7;XL;6.30 €;kuracie;;rezeň;ryža;hranolky
+Prír.kur.rezeň s hubovou omáčkou, ½ryža, ½hranolky;Hlavné jedlo;200g/150g/100g;1,7;2X;7.10 €;kuracie;;rezeň;ryža;hranolky
+Prír.kur.rezeň s hubovou omáčkou, ½ryža, ½hranolky;Hlavné jedlo;100g/150g/100g;1,7;;5.50 €;kuracie;;rezeň;ryža;hranolky
+Prír.kur.rezeň s hubovou omáčkou, ½ryža, ½hranolky;Hlavné jedlo;150g/150g/100g;1,7;XL;6.30 €;kuracie;;rezeň;ryža;hranolky
 Prír.kur.rezeň s jablkami a ananásom, hranolky;Hlavné jedlo;150g/200g;1;;6.90 €;kuracie;;rezeň;hranolky;
-Prír.kur.rezeň s jablkom a syrom, ?ryža, ?hranolky;Hlavné jedlo;100g/150g/100g;1,7;;5.50 €;kuracie;;rezeň;ryža;hranolky
-Prír.kur.rezeň s jablkovo -zeler. omáčkou, ?ryža,?hranolky;Hlavné jedlo;100g/150g/150g4,00 €;1,7;;5.50 €;kuracie;;rezeň;ryža;hranolky
-Prír.kur.rezeň s karam.jablkom a syrom, ?ryža, ?hranolky;Hlavné jedlo;150g/150g/100g;1,3,7;XL;6.30 €;kuracie;;rezeň;ryža;hranolky
-Prír.kur.rezeň s karam.jablkom a syrom, ?ryža,?hranolky;Hlavné jedlo;100g/150g/100g;1,7;;5.50 €;kuracie;;rezeň;ryža;hranolky
-Prír.kur.rezeň s karam.jablkom, ?ryža,?hranolky;Hlavné jedlo;200g/150g/100g;1;2X;7.10 €;kuracie;;rezeň;ryža;hranolky
-Prír.kur.rezeň s karam.jablkom, ?ryža,?hranolky;Hlavné jedlo;100g/150g/100g;1;;5.50 €;kuracie;;rezeň;ryža;hranolky
-Prír.kur.rezeň s karam.jablkom, ?ryža,?hranolky;Hlavné jedlo;150g/150g/100g;1;XL;6.30 €;kuracie;;rezeň;ryža;hranolky
+Prír.kur.rezeň s jablkom a syrom, ½ryža, ½hranolky;Hlavné jedlo;100g/150g/100g;1,7;;5.50 €;kuracie;;rezeň;ryža;hranolky
+Prír.kur.rezeň s jablkovo -zeler. omáčkou, ½ryža,½hranolky;Hlavné jedlo;100g/150g/150g4,00 €;1,7;;5.50 €;kuracie;;rezeň;ryža;hranolky
+Prír.kur.rezeň s karam.jablkom a syrom, ½ryža, ½hranolky;Hlavné jedlo;150g/150g/100g;1,3,7;XL;6.30 €;kuracie;;rezeň;ryža;hranolky
+Prír.kur.rezeň s karam.jablkom a syrom, ½ryža,½hranolky;Hlavné jedlo;100g/150g/100g;1,7;;5.50 €;kuracie;;rezeň;ryža;hranolky
+Prír.kur.rezeň s karam.jablkom, ½ryža,½hranolky;Hlavné jedlo;200g/150g/100g;1;2X;7.10 €;kuracie;;rezeň;ryža;hranolky
+Prír.kur.rezeň s karam.jablkom, ½ryža,½hranolky;Hlavné jedlo;100g/150g/100g;1;;5.50 €;kuracie;;rezeň;ryža;hranolky
+Prír.kur.rezeň s karam.jablkom, ½ryža,½hranolky;Hlavné jedlo;150g/150g/100g;1;XL;6.30 €;kuracie;;rezeň;ryža;hranolky
 Prír.kur.rezeň s karam.jablkom, opekané zemiaky;Hlavné jedlo;200g/200g;1,7;2X;7.10 €;kuracie;;rezeň;opekané zemiaky;
 Prír.kur.rezeň s karam.jablkom, opekané zemiaky;Hlavné jedlo;100g/200g;1,7;;5.50 €;kuracie;;rezeň;opekané zemiaky;
 Prír.kur.rezeň s karam.jablkom, opekané zemiaky;Hlavné jedlo;150g/200g;1,7;XL;6.30 €;kuracie;;rezeň;opekané zemiaky;
@@ -885,11 +885,11 @@ Prír.kur.rezeň s karotkou, opekané zemiaky;Hlavné jedlo;200g/200g;1;2X;7.10 
 Prír.kur.rezeň s karotkou, opekané zemiaky;Hlavné jedlo;100g/200g;1;;5.50 €;kuracie;;rezeň;opekané zemiaky;
 Prír.kur.rezeň s karotkou, opekané zemiaky;Hlavné jedlo;150g/200g;1;XL;6.30 €;kuracie;;rezeň;opekané zemiaky;
 Prír.kur.rezeň s koreňovou zeleninou,  opekané zemiaky;Hlavné jedlo;150g/200g;1;XL;6.30 €;kuracie;;rezeň;opekané zemiaky;
-Prír.kur.rezeň s koreňovou zeleninou, ?ryža,?frit.zem.;Hlavné jedlo;200g/150g/100g;1;2X;7.10 €;kuracie;;rezeň;ryža;fritované zemiaky
-Prír.kur.rezeň s koreňovou zeleninou, ?ryža,?frit.zem.;Hlavné jedlo;100g/150g/100g;1;;5.50 €;kuracie;;rezeň;ryža;fritované zemiaky
-Prír.kur.rezeň s koreňovou zeleninou, ?ryža,?frit.zem.;Hlavné jedlo;150g/150g/100g;1;XL;6.30 €;kuracie;;rezeň;ryža;fritované zemiaky
-Prír.kur.rezeň s koreňovou zeleninou, ?ryža,?hranolky;Hlavné jedlo;100g/150g/100g;1;;5.50 €;kuracie;;rezeň;ryža;hranolky
-Prír.kur.rezeň s koreňovou zeleninou, ?ryža,?hranolky;Hlavné jedlo;150g/150g/100g;1;XL;6.30 €;kuracie;;rezeň;ryža;hranolky
+Prír.kur.rezeň s koreňovou zeleninou, ½ryža,½frit.zem.;Hlavné jedlo;200g/150g/100g;1;2X;7.10 €;kuracie;;rezeň;ryža;fritované zemiaky
+Prír.kur.rezeň s koreňovou zeleninou, ½ryža,½frit.zem.;Hlavné jedlo;100g/150g/100g;1;;5.50 €;kuracie;;rezeň;ryža;fritované zemiaky
+Prír.kur.rezeň s koreňovou zeleninou, ½ryža,½frit.zem.;Hlavné jedlo;150g/150g/100g;1;XL;6.30 €;kuracie;;rezeň;ryža;fritované zemiaky
+Prír.kur.rezeň s koreňovou zeleninou, ½ryža,½hranolky;Hlavné jedlo;100g/150g/100g;1;;5.50 €;kuracie;;rezeň;ryža;hranolky
+Prír.kur.rezeň s koreňovou zeleninou, ½ryža,½hranolky;Hlavné jedlo;150g/150g/100g;1;XL;6.30 €;kuracie;;rezeň;ryža;hranolky
 Prír.kur.rezeň s koreňovou zeleninou, fritované zemiaky;Hlavné jedlo;200g/200g;1;2X;7.10 €;kuracie;;rezeň;fritované zemiaky;
 Prír.kur.rezeň s koreňovou zeleninou, opekané  zemiaky;Hlavné jedlo;100g/200g;1,7;;5.50 €;kuracie;;rezeň;opekané zemiaky;
 Prír.kur.rezeň s koreňovou zeleninou, zem.kaša;Hlavné jedlo;200g/200g;1,7;2X;7.10 €;kuracie;;rezeň;zemiaková kaša;
@@ -902,15 +902,15 @@ Prír.kur.rezeň s medovo-horčicovou omáčkou, fritované zemiaky, zel.šalát
 Prír.kur.rezeň s medovo-horčicovou omáčkou, fritované zemiaky, zel.šalát;Hlavné jedlo;150g/200g;1,10;XL;6.30 €;kuracie;;rezeň;fritované zemiaky;
 Prír.kur.rezeň s olivami a plesnivým syrom, hranolky;Hlavné jedlo;150g/200g;1;;6.90 €;kuracie;;rezeň;hranolky;
 Prír.kur.rezeň s orieškami a brokolicou, hranolky;Hlavné jedlo;150g/200g;1,8;;6.90 €;kuracie;;rezeň;hranolky;
-Prír.kur.rezeň s paradajkou a syrom, ?ryža, ?hranolky;Hlavné jedlo;200g/150g/100g;1,7;2X;7.10 €;kuracie;;rezeň;ryža;hranolky
-Prír.kur.rezeň s paradajkou a syrom, ?ryža, ?hranolky;Hlavné jedlo;100g/150g/100g;1,7;;5.50 €;kuracie;;rezeň;ryža;hranolky
-Prír.kur.rezeň s paradajkou a syrom, ?ryža, ?hranolky;Hlavné jedlo;150g/150g/100g;1,7;XL;6.30 €;kuracie;;rezeň;ryža;hranolky
-Prír.kur.rezeň s pórom a kukuricou, ?ryža, ?hranolky;Hlavné jedlo;200g/150g/100g;1;2X;7.10 €;kuracie;;rezeň;ryža;hranolky
-Prír.kur.rezeň s pórom a kukuricou, ?ryža, ?hranolky;Hlavné jedlo;100g/150g/100g;1;;5.50 €;kuracie;;rezeň;ryža;hranolky
-Prír.kur.rezeň s pórom a kukuricou, ?ryža, ?hranolky;Hlavné jedlo;150g/150g/100g;1;XL;6.30 €;kuracie;;rezeň;ryža;hranolky
-Prír.kur.rezeň s volským okom, ?ryža, ?hranolky;Hlavné jedlo;200g/150g/100g;1,3;2X;7.10 €;kuracie;;rezeň;ryža;hranolky
-Prír.kur.rezeň s volským okom, ?ryža, ?hranolky;Hlavné jedlo;100g/150g/100g;1,3;;5.50 €;kuracie;;rezeň;ryža;hranolky
-Prír.kur.rezeň s volským okom, ?ryža, ?hranolky;Hlavné jedlo;150g/150g/100g;1,3;XL;6.30 €;kuracie;;rezeň;ryža;hranolky
+Prír.kur.rezeň s paradajkou a syrom, ½ryža, ½hranolky;Hlavné jedlo;200g/150g/100g;1,7;2X;7.10 €;kuracie;;rezeň;ryža;hranolky
+Prír.kur.rezeň s paradajkou a syrom, ½ryža, ½hranolky;Hlavné jedlo;100g/150g/100g;1,7;;5.50 €;kuracie;;rezeň;ryža;hranolky
+Prír.kur.rezeň s paradajkou a syrom, ½ryža, ½hranolky;Hlavné jedlo;150g/150g/100g;1,7;XL;6.30 €;kuracie;;rezeň;ryža;hranolky
+Prír.kur.rezeň s pórom a kukuricou, ½ryža, ½hranolky;Hlavné jedlo;200g/150g/100g;1;2X;7.10 €;kuracie;;rezeň;ryža;hranolky
+Prír.kur.rezeň s pórom a kukuricou, ½ryža, ½hranolky;Hlavné jedlo;100g/150g/100g;1;;5.50 €;kuracie;;rezeň;ryža;hranolky
+Prír.kur.rezeň s pórom a kukuricou, ½ryža, ½hranolky;Hlavné jedlo;150g/150g/100g;1;XL;6.30 €;kuracie;;rezeň;ryža;hranolky
+Prír.kur.rezeň s volským okom, ½ryža, ½hranolky;Hlavné jedlo;200g/150g/100g;1,3;2X;7.10 €;kuracie;;rezeň;ryža;hranolky
+Prír.kur.rezeň s volským okom, ½ryža, ½hranolky;Hlavné jedlo;100g/150g/100g;1,3;;5.50 €;kuracie;;rezeň;ryža;hranolky
+Prír.kur.rezeň s volským okom, ½ryža, ½hranolky;Hlavné jedlo;150g/150g/100g;1,3;XL;6.30 €;kuracie;;rezeň;ryža;hranolky
 Prír.kur.rezeň s volským okom, fritované zemiaky;Hlavné jedlo;2200g/200g;1,3;2X;7.10 €;kuracie;;rezeň;fritované zemiaky;
 Prír.kur.rezeň s volským okom, opekané zemiaky;Hlavné jedlo;200g/200g;1,3;2X;7.10 €;kuracie;;rezeň;opekané zemiaky;
 Prír.kur.rezeň s volským okom, opekané zemiaky;Hlavné jedlo;100g/200g;1,3;;5.50 €;kuracie;;rezeň;opekané zemiaky;
@@ -925,7 +925,7 @@ Prír.kur.rezeň s volským okom, zemiak. kaša;Hlavné jedlo;100g/200g;1,3;;5.5
 Prír.kur.rezeň s volským okom, zemiak. kaša;Hlavné jedlo;100g/200g;1,3,7;XL;6.30 €;kuracie;;rezeň;zemiaková kaša;
 Prír.kur.rezeň s volským okom, zemiaková kaša;Hlavné jedlo;100g/200g;1,3,7;2X;7.10 €;kuracie;;rezeň;zemiaková kaša;
 Prír.kur.rezeň s volským okom, zemiaková kaša;Hlavné jedlo;100g/200g;1,3,7;;5.50 €;kuracie;;rezeň;zemiaková kaša;
-Prír.kur.rezeň so slaninou a vol.okom, gril. cherry paradajky, ?ryža,?hranolky;Hlavné jedlo;150g/200g;1,3;;6.90 €;kuracie;;rezeň;ryža;hranolky
+Prír.kur.rezeň so slaninou a vol.okom, gril. cherry paradajky, ½ryža,½hranolky;Hlavné jedlo;150g/200g;1,3;;6.90 €;kuracie;;rezeň;ryža;hranolky
 Prír.kur.rezeň so smotanovo provensálskou omáčkou, opekané zemiaky;Hlavné jedlo;200g/200g;1,7;2X;7.10 €;kuracie;;rezeň;opekané zemiaky;
 Prír.kur.rezeň so smotanovo provensálskou omáčkou, opekané zemiaky;Hlavné jedlo;100g/200g;1,7;;5.50 €;kuracie;;rezeň;opekané zemiaky;
 Prír.kur.rezeň so smotanovo provensálskou omáčkou, opekané zemiaky;Hlavné jedlo;150g/200g;1,7;XL;6.30 €;kuracie;;rezeň;opekané zemiaky;
@@ -938,12 +938,12 @@ Prír.kur.rezeň so šampiňónmi, americké zemiaky;Hlavné jedlo;150g/150g/100
 Prír.kur.rezeň so šampiňónmi, ryža;Hlavné jedlo;200g/200g;1;2X;7.10 €;kuracie;;rezeň;ryža;
 Prír.kur.rezeň so šampiňónmi, ryža;Hlavné jedlo;100g/200g;1;;5.50 €;kuracie;;rezeň;ryža;
 Prír.kur.rezeň so šampiňónmi, ryža;Hlavné jedlo;150g/200g;1;XL;6.30 €;kuracie;;rezeň;ryža;
-Prír.kur.rezeň so šunkou a syrom, ?ryža, ?frit.zem.;Hlavné jedlo;200g/150g/100g;1,3;2X;7.10 €;kuracie;;rezeň;ryža;fritované zemiaky
-Prír.kur.rezeň so šunkou a syrom, ?ryža, ?frit.zem.;Hlavné jedlo;100g/150g/100g;1,3;;5.50 €;kuracie;;rezeň;ryža;fritované zemiaky
-Prír.kur.rezeň so šunkou a syrom, ?ryža, ?frit.zem.;Hlavné jedlo;150g/150g/100g;1,3;XL;6.30 €;kuracie;;rezeň;ryža;fritované zemiaky
-Prír.kur.rezeň so šunkou a syrom, ?ryža, ?hranolky;Hlavné jedlo;200g/150g/100g;1,7;2X;7.10 €;kuracie;;rezeň;ryža;hranolky
-Prír.kur.rezeň so šunkou a syrom, ?ryža, ?hranolky;Hlavné jedlo;100g/150g/100g;1,3;;5.50 €;kuracie;;rezeň;ryža;hranolky
-Prír.kur.rezeň so šunkou a syrom, ?ryža, ?hranolky;Hlavné jedlo;150g/150g/100g;1,3;XL;6.30 €;kuracie;;rezeň;ryža;hranolky
+Prír.kur.rezeň so šunkou a syrom, ½ryža, ½frit.zem.;Hlavné jedlo;200g/150g/100g;1,3;2X;7.10 €;kuracie;;rezeň;ryža;fritované zemiaky
+Prír.kur.rezeň so šunkou a syrom, ½ryža, ½frit.zem.;Hlavné jedlo;100g/150g/100g;1,3;;5.50 €;kuracie;;rezeň;ryža;fritované zemiaky
+Prír.kur.rezeň so šunkou a syrom, ½ryža, ½frit.zem.;Hlavné jedlo;150g/150g/100g;1,3;XL;6.30 €;kuracie;;rezeň;ryža;fritované zemiaky
+Prír.kur.rezeň so šunkou a syrom, ½ryža, ½hranolky;Hlavné jedlo;200g/150g/100g;1,7;2X;7.10 €;kuracie;;rezeň;ryža;hranolky
+Prír.kur.rezeň so šunkou a syrom, ½ryža, ½hranolky;Hlavné jedlo;100g/150g/100g;1,3;;5.50 €;kuracie;;rezeň;ryža;hranolky
+Prír.kur.rezeň so šunkou a syrom, ½ryža, ½hranolky;Hlavné jedlo;150g/150g/100g;1,3;XL;6.30 €;kuracie;;rezeň;ryža;hranolky
 Prír.kur.rezeň so šunkou a syrom, fritované zemiaky;Hlavné jedlo;200g/200g;1,7;2X;7.10 €;kuracie;;rezeň;fritované zemiaky;
 Prír.kur.rezeň so šunkou a syrom, fritované zemiaky;Hlavné jedlo;100g/200g;1,7;;5.50 €;kuracie;;rezeň;fritované zemiaky;
 Prír.kur.rezeň so šunkou a syrom, fritované zemiaky;Hlavné jedlo;150g/200g;1,7;XL;6.30 €;kuracie;;rezeň;fritované zemiaky;
@@ -954,9 +954,9 @@ Prír.kur.rezeň so šunkou a syrom, ryža, obloha;Hlavné jedlo;200g/200g;1,7;2
 Prír.kur.rezeň so šunkou a syrom, ryža, obloha;Hlavné jedlo;100g/200g;1,7;;5.50 €;kuracie;;rezeň;ryža;
 Prír.kur.rezeň so šunkou a syrom, ryža, obloha;Hlavné jedlo;150g/200g;1,7;XL;6.30 €;kuracie;;rezeň;ryža;
 Prír.kur.rezeň so šunkou, syrom a volským okom, hranolky;Hlavné jedlo;150g/200g;1,3,7;;6.90 €;kuracie;;rezeň;hranolky;
-Prír.kur.rezeň so šunkovo-syrovou omáčkou, ?ryža, ?hranolky;Hlavné jedlo;200g/150g/100g;1,7;2X;7.10 €;kuracie;;rezeň;ryža;hranolky
-Prír.kur.rezeň so šunkovo-syrovou omáčkou, ?ryža, ?hranolky;Hlavné jedlo;100g/150g/100g;1,7;;5.50 €;kuracie;;rezeň;ryža;hranolky
-Prír.kur.rezeň so šunkovo-syrovou omáčkou, ?ryža, ?hranolky;Hlavné jedlo;150g/150g/100g;1,7;XL;6.30 €;kuracie;;rezeň;ryža;hranolky
+Prír.kur.rezeň so šunkovo-syrovou omáčkou, ½ryža, ½hranolky;Hlavné jedlo;200g/150g/100g;1,7;2X;7.10 €;kuracie;;rezeň;ryža;hranolky
+Prír.kur.rezeň so šunkovo-syrovou omáčkou, ½ryža, ½hranolky;Hlavné jedlo;100g/150g/100g;1,7;;5.50 €;kuracie;;rezeň;ryža;hranolky
+Prír.kur.rezeň so šunkovo-syrovou omáčkou, ½ryža, ½hranolky;Hlavné jedlo;150g/150g/100g;1,7;XL;6.30 €;kuracie;;rezeň;ryža;hranolky
 Prír.kur.rezeň so šunkovo-syrovou omáčkou, ryža;Hlavné jedlo;200g/200g;1,7;2X;7.10 €;kuracie;;rezeň;ryža;
 Prír.kur.rezeň so šunkovo-syrovou omáčkou, ryža;Hlavné jedlo;100g/200g;1,7;;5.50 €;kuracie;;rezeň;ryža;
 Prír.kur.rezeň so šunkovo-syrovou omáčkou, ryža;Hlavné jedlo;150g/200g;1,7;XL;6.30 €;kuracie;;rezeň;ryža;
@@ -968,22 +968,22 @@ Prír.kur.rezeň v pik. omáčke, baby mrkva , hranolky;Hlavné jedlo;150g/200g;
 Prír.kur.rezeň v šampiňónovej omáčke, ryža;Hlavné jedlo;200g/200g;1,7;2X;7.10 €;kuracie;;rezeň;ryža;
 Prír.kur.rezeň v šampiňónovej omáčke, ryža;Hlavné jedlo;100g/200g;1,7;;5.50 €;kuracie;;rezeň;ryža;
 Prír.kur.rezeň v šampiňónovej omáčke, ryža;Hlavné jedlo;150g/200g;1,7;XL;6.30 €;kuracie;;rezeň;ryža;
-Prír.kur.rezeň, ?ryža, ?hranolky, mix šalát;Hlavné jedlo;200g/150g/100g;1;2X;7.10 €;kuracie;;rezeň;ryža;hranolky
-Prír.kur.rezeň, ?ryža, ?hranolky, mix šalát;Hlavné jedlo;100g/150g/100g;1;;5.50 €;kuracie;;rezeň;ryža;hranolky
-Prír.kur.rezeň, ?ryža, ?hranolky, mix šalát;Hlavné jedlo;150g/150g/100g;1;XL;6.30 €;kuracie;;rezeň;ryža;hranolky
+Prír.kur.rezeň, ½ryža, ½hranolky, mix šalát;Hlavné jedlo;200g/150g/100g;1;2X;7.10 €;kuracie;;rezeň;ryža;hranolky
+Prír.kur.rezeň, ½ryža, ½hranolky, mix šalát;Hlavné jedlo;100g/150g/100g;1;;5.50 €;kuracie;;rezeň;ryža;hranolky
+Prír.kur.rezeň, ½ryža, ½hranolky, mix šalát;Hlavné jedlo;150g/150g/100g;1;XL;6.30 €;kuracie;;rezeň;ryža;hranolky
 Prír.kur.rezeň, fritované zemiaky, zelenina na masle;Hlavné jedlo;100g/200g;1;;5.50 €;kuracie;;rezeň;fritované zemiaky;
 Prír.kur.rezeň, fritované zemiaky, zelenina na masle;Hlavné jedlo;150g/200g;1;XL;6.30 €;kuracie;;rezeň;fritované zemiaky;
 Prír.kur.rezeň, fritované zemiaky, zeleninová príloha;Hlavné jedlo;200g/200g;1;2X;7.10 €;kuracie;;rezeň;fritované zemiaky;
 Prír.kur.rezeň, fritované zemiaky, zeleninová príloha;Hlavné jedlo;100g/200g;1;;5.50 €;kuracie;;rezeň;fritované zemiaky;
 Prír.kur.rezeň, fritované zemiaky, zeleninová príloha;Hlavné jedlo;150g/200g;1;XL;6.30 €;kuracie;;rezeň;fritované zemiaky;
 Prír.kur.rezeň, hrášková ryža, bretónska zelenina;Hlavné jedlo;200g/200g;1;2X;7.10 €;kuracie;;rezeň;ryža;
-Prír.kur.rezeň, hrášok, kuk., mrkva na masle, ?ryža,?hranolky;Hlavné jedlo;100g/150g/100g;1;2X;7.10 €;kuracie;;rezeň;ryža;hranolky
-Prír.kur.rezeň, hrášok, kuk., mrkva na masle, ?ryža,?hranolky;Hlavné jedlo;100g/150g/100g;1;;5.50 €;kuracie;;rezeň;ryža;hranolky
+Prír.kur.rezeň, hrášok, kuk., mrkva na masle, ½ryža,½hranolky;Hlavné jedlo;100g/150g/100g;1;2X;7.10 €;kuracie;;rezeň;ryža;hranolky
+Prír.kur.rezeň, hrášok, kuk., mrkva na masle, ½ryža,½hranolky;Hlavné jedlo;100g/150g/100g;1;;5.50 €;kuracie;;rezeň;ryža;hranolky
 Prír.kur.rezeň, hrášok, kuk., mrkva na masle, zemiaková kaša;Hlavné jedlo;200g/200g;1;2X;7.10 €;kuracie;;rezeň;zemiaková kaša;
 Prír.kur.rezeň, hrášok, kuk., mrkva na masle, zemiaková kaša;Hlavné jedlo;100g/200g;1;;5.50 €;kuracie;;rezeň;zemiaková kaša;
 Prír.kur.rezeň, hrášok, kuk., mrkva na masle, zemiaková kaša;Hlavné jedlo;150g/200g;1;XL;6.30 €;kuracie;;rezeň;zemiaková kaša;
-Prír.kur.rezeň, hrášok, kukur., mrkva na masle, ?ryža,?hranolky;Hlavné jedlo;100g/150g/100g;1;2X;7.10 €;kuracie;;rezeň;ryža;hranolky
-Prír.kur.rezeň, hrášok, kukur., mrkva na masle, ?ryža,?hranolky;Hlavné jedlo;150g/150g/100g;1;XL;6.30 €;kuracie;;rezeň;ryža;hranolky
+Prír.kur.rezeň, hrášok, kukur., mrkva na masle, ½ryža,½hranolky;Hlavné jedlo;100g/150g/100g;1;2X;7.10 €;kuracie;;rezeň;ryža;hranolky
+Prír.kur.rezeň, hrášok, kukur., mrkva na masle, ½ryža,½hranolky;Hlavné jedlo;150g/150g/100g;1;XL;6.30 €;kuracie;;rezeň;ryža;hranolky
 Prír.kur.rezeň, opekané zemiaky, mrkovo-jablkový šalát;Hlavné jedlo;100g/200g;1;;5.50 €;kuracie;;rezeň;opekané zemiaky;
 Prír.kur.rezeň, ryža, bretónska zelenina;Hlavné jedlo;100g/200g;1;;5.50 €;kuracie;;rezeň;ryža;
 Prír.kur.rezeň, ryža, bretónska zelenina;Hlavné jedlo;150g/200g;1;XL;6.30 €;kuracie;;rezeň;ryža;
@@ -991,10 +991,10 @@ Prír.kur.rezeň, ryža, mix šalát;Hlavné jedlo;100g/200g;1;;5.50 €;kuracie
 Prír.kur.rezeň, ryža, mix šalát;Hlavné jedlo;150g/200g;1;XL;6.30 €;kuracie;;rezeň;ryža;
 Prír.kur.rezeň, s  hráškovou omeletou, ryža, obloha;Hlavné jedlo;100g/200g;1,3;;5.50 €;kuracie;;rezeň;ryža;
 Prír.kur.rezeň, slaninová rolka so zelenou fauľkou, krokety;Hlavné jedlo;150g/200g;1;;6.90 €;kuracie;;rezeň;krokety;
-Prír.kurací rezeň s jablkom a syrom, ?ryža, ?hranolky;Hlavné jedlo;150g/150g/100g;1,7;XL;6.30 €;kuracie;;rezeň;ryža;hranolky
-Prír.kurací rezeň s mascarpone, ?ryža, ?frit.zem.;Hlavné jedlo;200g/150g/100g;1,7;2X;7.10 €;kuracie;;rezeň;ryža;fritované zemiaky
-Prír.kurací rezeň s mascarpone, ?ryža, ?frit.zem.;Hlavné jedlo;100g/150g/100g;1,7;;5.50 €;kuracie;;rezeň;ryža;fritované zemiaky
-Prír.kurací rezeň s mascarpone, ?ryža, ?frit.zem.;Hlavné jedlo;150g/150g/100g;1,7;XL;6.30 €;kuracie;;rezeň;ryža;fritované zemiaky
+Prír.kurací rezeň s jablkom a syrom, ½ryža, ½hranolky;Hlavné jedlo;150g/150g/100g;1,7;XL;6.30 €;kuracie;;rezeň;ryža;hranolky
+Prír.kurací rezeň s mascarpone, ½ryža, ½frit.zem.;Hlavné jedlo;200g/150g/100g;1,7;2X;7.10 €;kuracie;;rezeň;ryža;fritované zemiaky
+Prír.kurací rezeň s mascarpone, ½ryža, ½frit.zem.;Hlavné jedlo;100g/150g/100g;1,7;;5.50 €;kuracie;;rezeň;ryža;fritované zemiaky
+Prír.kurací rezeň s mascarpone, ½ryža, ½frit.zem.;Hlavné jedlo;150g/150g/100g;1,7;XL;6.30 €;kuracie;;rezeň;ryža;fritované zemiaky
 Prír.kurací rezeň so šunkou a syrom, ryža , obloha;Hlavné jedlo;150g/200g;1,7;XL;6.30 €;kuracie;;rezeň;ryža;
 Prírodný bravčový rezeň na smotane, knedle;Hlavné jedlo;200g/160g;1,3,7;2X;7.10 €;bravčove;;rezeň;knedľa;
 Prírodný bravčový rezeň na smotane, kolienka;Hlavné jedlo;100g/160g;1,3,7;;5.50 €;bravčove;;rezeň;kolienka;
@@ -1004,9 +1004,9 @@ Prírodný bravčový rezeň na šampiňónoch, ryža;Hlavné jedlo;100g/200g;1;
 Prírodný bravčový rezeň na šampiňónoch, ryža;Hlavné jedlo;150g/200g;1;XL;6.30 €;bravčove;;rezeň;ryža;
 Prírodný bravčový rezeň so zelenou fazuľkou, ryža;Hlavné jedlo;100g/200g;1;;5.50 €;bravčove;;rezeň;ryža;
 Prírodný bravčový rezeň so zelenou fazuľkou, ryža;Hlavné jedlo;150g/200g;1;XL;6.30 €;bravčove;;rezeň;ryža;
-Srbský bravčový rezeň, ?ryža, ?hranolky;Hlavné jedlo;200g/150g/100g;1;2X;7.10 €;bravčove;;rezeň;ryža;hranolky
-Srbský bravčový rezeň, ?ryža, ?hranolky;Hlavné jedlo;100g/150g/100g;1;;5.50 €;bravčove;;rezeň;ryža;hranolky
-Srbský bravčový rezeň, ?ryža, ?hranolky;Hlavné jedlo;150g/150g/100g;1;XL;6.30 €;bravčove;;rezeň;ryža;hranolky
+Srbský bravčový rezeň, ½ryža, ½hranolky;Hlavné jedlo;200g/150g/100g;1;2X;7.10 €;bravčove;;rezeň;ryža;hranolky
+Srbský bravčový rezeň, ½ryža, ½hranolky;Hlavné jedlo;100g/150g/100g;1;;5.50 €;bravčove;;rezeň;ryža;hranolky
+Srbský bravčový rezeň, ½ryža, ½hranolky;Hlavné jedlo;150g/150g/100g;1;XL;6.30 €;bravčove;;rezeň;ryža;hranolky
 Srbský bravčový rezeň, americké zemiaky;Hlavné jedlo;200g/200g;1;2X;7.10 €;bravčove;;rezeň;americké zemiaky;
 Srbský bravčový rezeň, americké zemiaky;Hlavné jedlo;100g/200g;1;;5.50 €;bravčove;;rezeň;americké zemiaky;
 Srbský bravčový rezeň, americké zemiaky;Hlavné jedlo;150g/200g;1;XL;6.30 €;bravčove;;rezeň;americké zemiaky;
@@ -1089,26 +1089,26 @@ Strapačky s kyslou kapustou, pečená krkovička;Hlavné jedlo;250g/150g;1,3,7,
 Bravčový stroganov s kyslou uhorkou, hranolky;Hlavné jedlo;200g/200g;1,6,7,10;2X;7.10 €;Bravčové;;Stroganov;hranolky;
 Bravčový stroganov s kyslou uhorkou, hranolky;Hlavné jedlo;100g/200g;1,6,7,10;;5.50 €;Bravčové;;Stroganov;hranolky;
 Bravčový stroganov s kyslou uhorkou, hranolky;Hlavné jedlo;150g/200g;1,6,7,10;XL;6.30 €;Bravčové;;Stroganov;hranolky;
-Bravčový stroganov, ?ryža, ?fritované zemiaky, tatárska omáčka;Hlavné jedlo;200g/150g/100g;1,6,7,10;2X;7.10 €;Bravčové;;Stroganov;ryža;fritované zemiaky
-Bravčový stroganov, ?ryža, ?fritované zemiaky, tatárska omáčka;Hlavné jedlo;100g/150g/100g;1,6,7,10;;5.50 €;Bravčové;;Stroganov;ryža;fritované zemiaky
-Bravčový stroganov, ?ryža, ?fritované zemiaky, tatárska omáčka;Hlavné jedlo;150g/150g/100g;1,6,7,10;XL;6.30 €;Bravčové;;Stroganov;ryža;fritované zemiaky
-Bravčový stroganov, ?ryža, ?hranolky;Hlavné jedlo;200g/150g/100g;1,6,7,10;2X;7.10 €;Bravčové;;Stroganov;ryža;hranolky
-Bravčový stroganov, ?ryža, ?hranolky;Hlavné jedlo;100g/150g/100g;1,6,7,10;;5.50 €;Bravčové;;Stroganov;ryža;hranolky
-Bravčový stroganov, ?ryža, ?hranolky;Hlavné jedlo;150g/150g/100g;1,6,7,10;XL;6.30 €;Bravčové;;Stroganov;ryža;hranolky
+Bravčový stroganov, ½ryža, ½fritované zemiaky, tatárska omáčka;Hlavné jedlo;200g/150g/100g;1,6,7,10;2X;7.10 €;Bravčové;;Stroganov;ryža;fritované zemiaky
+Bravčový stroganov, ½ryža, ½fritované zemiaky, tatárska omáčka;Hlavné jedlo;100g/150g/100g;1,6,7,10;;5.50 €;Bravčové;;Stroganov;ryža;fritované zemiaky
+Bravčový stroganov, ½ryža, ½fritované zemiaky, tatárska omáčka;Hlavné jedlo;150g/150g/100g;1,6,7,10;XL;6.30 €;Bravčové;;Stroganov;ryža;fritované zemiaky
+Bravčový stroganov, ½ryža, ½hranolky;Hlavné jedlo;200g/150g/100g;1,6,7,10;2X;7.10 €;Bravčové;;Stroganov;ryža;hranolky
+Bravčový stroganov, ½ryža, ½hranolky;Hlavné jedlo;100g/150g/100g;1,6,7,10;;5.50 €;Bravčové;;Stroganov;ryža;hranolky
+Bravčový stroganov, ½ryža, ½hranolky;Hlavné jedlo;150g/150g/100g;1,6,7,10;XL;6.30 €;Bravčové;;Stroganov;ryža;hranolky
 Bravčový stroganov, americké  zemiaky, uhorka;Hlavné jedlo;150g/200g;1,6,7,10;XL;6.30 €;Bravčové;;Stroganov;americké zemiaky;
 Bravčový stroganov, americké zemiaky, uhorka;Hlavné jedlo;100g/200g;1,6,7,10;;5.50 €;Bravčové;;Stroganov;americké zemiaky;
 Bravčový stroganov, fritované zemiaky;Hlavné jedlo;200g/200g;1,6,7,10;2X;7.10 €;Bravčové;;Stroganov;fritované zemiaky;
 Bravčový stroganov, fritované zemiaky;Hlavné jedlo;100g/200g;1,6,7,10;;5.50 €;Bravčové;;Stroganov;fritované zemiaky;
 Bravčový stroganov, fritované zemiaky;Hlavné jedlo;150g/200g;1,6,7,10;XL;6.30 €;Bravčové;;Stroganov;fritované zemiaky;
-Hovädzí stroganov, ?ryža, ?hranolky;Hlavné jedlo;150g/150g/100g;1,6,7,10;;6.90 €;hovädzie;;stroganov;ryža;hranolky
+Hovädzí stroganov, ½ryža, ½hranolky;Hlavné jedlo;150g/150g/100g;1,6,7,10;;6.90 €;hovädzie;;stroganov;ryža;hranolky
 Hovädzí stroganov, fritované zemiaky, tatárska omáčka;Hlavné jedlo;150g/200g;1,6,7,10;;6.90 €;hovädzie;;stroganov;fritované zemiaky;
 Hovädzí stroganov, hranolky, tat.omáčka;Hlavné jedlo;150g/200g;1,6,7,10;;6.90 €;hovädzie;;stroganov;hranolky;
-Kurací stroganov, ?ryža, ?frit.zemiaky;Hlavné jedlo;200g/150g/100g;1,6,7,10;2X;7.10 €;kuracie;;stroganov;ryža;fritované zemiaky
-Kurací stroganov, ?ryža, ?frit.zemiaky;Hlavné jedlo;100g/150g/100g;1,6,7,10;;5.50 €;kuracie;;stroganov;ryža;fritované zemiaky
-Kurací stroganov, ?ryža, ?frit.zemiaky;Hlavné jedlo;150g/150g/100g;1,6,7,10;XL;6.30 €;kuracie;;stroganov;ryža;fritované zemiaky
-Kurací stroganov, ?ryža, ?hranolky;Hlavné jedlo;200g/150g/100g;1,6,7,10;2X;7.10 €;kuracie;;stroganov;ryža;hranolky
-Kurací stroganov, ?ryža, ?hranolky;Hlavné jedlo;100g/150g/100g;1,6,7,10;;5.50 €;kuracie;;stroganov;ryža;hranolky
-Kurací stroganov, ?ryža, ?hranolky;Hlavné jedlo;150g/150g/100g;1,6,7,10;XL;6.30 €;kuracie;;stroganov;ryža;hranolky
+Kurací stroganov, ½ryža, ½frit.zemiaky;Hlavné jedlo;200g/150g/100g;1,6,7,10;2X;7.10 €;kuracie;;stroganov;ryža;fritované zemiaky
+Kurací stroganov, ½ryža, ½frit.zemiaky;Hlavné jedlo;100g/150g/100g;1,6,7,10;;5.50 €;kuracie;;stroganov;ryža;fritované zemiaky
+Kurací stroganov, ½ryža, ½frit.zemiaky;Hlavné jedlo;150g/150g/100g;1,6,7,10;XL;6.30 €;kuracie;;stroganov;ryža;fritované zemiaky
+Kurací stroganov, ½ryža, ½hranolky;Hlavné jedlo;200g/150g/100g;1,6,7,10;2X;7.10 €;kuracie;;stroganov;ryža;hranolky
+Kurací stroganov, ½ryža, ½hranolky;Hlavné jedlo;100g/150g/100g;1,6,7,10;;5.50 €;kuracie;;stroganov;ryža;hranolky
+Kurací stroganov, ½ryža, ½hranolky;Hlavné jedlo;150g/150g/100g;1,6,7,10;XL;6.30 €;kuracie;;stroganov;ryža;hranolky
 Kurací stroganov, americké zemiaky, tatárska omáčka;Hlavné jedlo;100g/200g;1,6,7,10;;5.50 €;kuracie;;stroganov;americké zemiaky;
 Kurací stroganov, americké zemiaky, tatárska omáčka;Hlavné jedlo;150g/200g;1,6,7,10;XL;6.30 €;kuracie;;stroganov;americké zemiaky;
 Kurací stroganov, fritované zemiaky, tatárska omáčka;Hlavné jedlo;200g/200g;1,6,7,10;2X;7.10 €;kuracie;;stroganov;fritované zemiaky;
@@ -1210,8 +1210,8 @@ Kurací závitok, ryža;Hlavné jedlo;100g/200g;1,3;;5.50 €;kuracie;;Závitok;
 Kurací závitok, ryža, kompót;Hlavné jedlo;200g/200g;1,3;2X;7.10 €;kuracie;;Závitok;ryža;
 Kurací závitok, ryža, kompót;Hlavné jedlo;100g/200g;1,3;;5.50 €;kuracie;;Závitok;ryža;
 Kurací závitok, ryža, kompót;Hlavné jedlo;150g/200g;1,7,10;XL;6.30 €;kuracie;;Závitok;ryža;
-Kuracia roláda, ?ryža, ?hranolky, kompót;Hlavné jedlo;100g/150g/100g;1,3;;5.50 €;kuracie;;Závitok;ryža;hranolky
-Kuracia roláda, ?ryža, ?hranolky, kompót;Hlavné jedlo;150g/150g/100g;1,3;XL;6.30 €;kuracie;;Závitok;ryža;hranolky
+Kuracia roláda, ½ryža, ½hranolky, kompót;Hlavné jedlo;100g/150g/100g;1,3;;5.50 €;kuracie;;Závitok;ryža;hranolky
+Kuracia roláda, ½ryža, ½hranolky, kompót;Hlavné jedlo;150g/150g/100g;1,3;XL;6.30 €;kuracie;;Závitok;ryža;hranolky
 Kuracia roláda, ryža, kompót;Hlavné jedlo;200g/200g;1,3;2X;7.10 €;kuracie;;Závitok;ryža;
 Kuracia roláda, ryža, kompót;Hlavné jedlo;100g/200g;1,3;;5.50 €;kuracie;;Závitok;ryža;
 Kuracia roláda, ryža, kompót;Hlavné jedlo;150g/200g;1,3;XL;6.30 €;kuracie;;Závitok;ryža;
