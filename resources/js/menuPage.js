@@ -1,11 +1,12 @@
 var currentYear;
 var currentMonth;
+var currentDate;
 
 document.addEventListener("DOMContentLoaded", function(){
     const params = new URLSearchParams(window.location.search);
     const dateParam = params.get('date');
 
-    const currentDate = dateParam ? new Date(dateParam) : new Date();
+    currentDate = dateParam ? new Date(dateParam) : new Date();
 
     currentYear = currentDate.getFullYear();
     currentMonth = currentDate.getMonth() + 1;
@@ -100,7 +101,6 @@ function updateCalendar(year, month) {
 
                 week.forEach(day => {
                     const dayButton = document.createElement('button');
-                    dayButton.classList.add('dayWrapper');
                     dayButton.addEventListener('click', function(){
                         const url = new URL(window.location.href);
                         url.searchParams.set('date', day.date);
@@ -111,6 +111,13 @@ function updateCalendar(year, month) {
                     const dayParagraph = document.createElement('p');
                     dayParagraph.classList.add('day', 'calendarDay');
                     dayParagraph.textContent = String(new Date(day.date).getDate());
+
+                    const currentDay = currentDate.getDate();
+                    if (parseInt(dayParagraph.textContent) === currentDay){
+                        dayButton.classList.add('dayWrapper', 'dayWrapperCurrent');
+                    }else{
+                        dayButton.classList.add('dayWrapper', 'dayWrapperNormal');
+                    }
 
                     if (!day.in_current_month) {
                         dayParagraph.style.opacity = '0.5';

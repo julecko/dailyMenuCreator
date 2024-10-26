@@ -11,8 +11,28 @@ class DailyMenu extends Model
     use HasFactory;
     protected $table = 'daily_menus';
     protected $guarded = ['id', 'created_at', 'updated_at'];
-    public static function dateExists(string $date): bool{
-        return self::where('menu_date', $date)->exists();
+    public static function dateExists(string $date): bool
+    {
+        $record = self::where('menu_date', $date)->first();
+
+        if (!$record) {
+            return false;
+        }
+
+        $data = $record->toArray();
+
+        unset($data['menu_date']);
+        unset($data['id']);
+        unset($data['created_at']);
+        unset($data['updated_at']);
+
+        Log::Info($data);
+        foreach ($data as $value) {
+            if (!empty($value)) {
+                return true;
+            }
+        }
+        return false;
     }
     public static function createMenu($date){
         $currentDate = $date->format('Y-m-d');

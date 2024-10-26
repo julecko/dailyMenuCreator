@@ -65,7 +65,7 @@
     text-align: center;
     color: $text-color;
 }
-.week > .dayWrapper:hover{
+.week > .dayWrapperNormal:hover{
     background-color: $orange-light-color;
     transition: background-color 0.3s ease-out;
     border-radius: 9999px;
@@ -79,6 +79,10 @@
     align-items: center;
     box-sizing: border-box;
     flex-shrink: 0;
+}
+.dayWrapperCurrent{
+    background-color: $gray-light-color;
+    border-radius: 9999px;
 }
 #weeks {
     display: flex;
