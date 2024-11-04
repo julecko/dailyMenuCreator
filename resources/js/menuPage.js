@@ -101,51 +101,62 @@ function updateCalendar(year, month) {
 
                 week.forEach(day => {
                     const dayButton = document.createElement('button');
-                    dayButton.addEventListener('click', function(){
+                    dayButton.addEventListener('click', function() {
                         const url = new URL(window.location.href);
                         url.searchParams.set('date', day.date);
                         window.history.pushState({}, '', url);
                         window.location.reload();
-                    })
+                    });
 
                     const dayParagraph = document.createElement('p');
                     dayParagraph.classList.add('day', 'calendarDay');
                     dayParagraph.textContent = String(new Date(day.date).getDate());
 
                     const currentDay = currentDate.getDate();
-                    if (parseInt(dayParagraph.textContent) === currentDay){
+                    const currentMonth = currentDate.getMonth();
+                    const dayDate = new Date(day.date);
+                    const dayMonth = dayDate.getMonth();
+
+                    if (parseInt(dayParagraph.textContent) === currentDay && dayMonth === currentMonth) {
                         dayButton.classList.add('dayWrapper', 'dayWrapperCurrent');
-                    }else{
+                    } else {
                         dayButton.classList.add('dayWrapper', 'dayWrapperNormal');
                     }
 
                     if (!day.in_current_month) {
                         dayParagraph.style.opacity = '0.5';
                     }
-                    if (day.exists){
+                    if (day.exists) {
                         dayParagraph.style.color = 'red';
                     }
+
                     dayButton.appendChild(dayParagraph);
                     weekDiv.appendChild(dayButton);
                 });
 
                 weeksContainer.appendChild(weekDiv);
             });
+
             const title = document.getElementById('calendarTitle');
-            const month = getMonthName(currentMonth);
-            title.innerHTML = `${month} ${currentYear}`;
+            const monthName = getMonthName(currentMonth);
+            title.innerHTML = `${monthName} ${currentYear}`;
         })
         .catch(error => {
             console.error('Error:', error);
         });
 }
-function sendPostRequest(url, data) {
+function sendRequest(url, data, type) {
+    if (type === 'GET' && data) {
+        const queryParams = new URLSearchParams(data).toString();
+        url += '?' + queryParams;
+    }
+
     return fetch(url, {
-        method: 'POST',
+        method: type,
         headers: {
             'Content-Type': 'application/json',
         },
-        body: JSON.stringify(data),
+        body: type === 'POST' ? JSON.stringify(data) : undefined,
     })
         .then(response => {
             return response.text().then(text => {
@@ -180,7 +191,7 @@ function setUpFoodButtons(currentDate) {
                 update_type: 'manual',
                 food_type: button.id
             };
-            sendPostRequest('/api/update', data).then(() => {
+            sendRequest('/api/update', data, 'POST').then(() => {
                 location.reload();
             });
         });
@@ -194,7 +205,7 @@ function setUpFoodButtons(currentDate) {
                 update_type: 'delete',
                 food_type: button.id
             };
-            sendPostRequest('/api/update', data).then(() => {
+            sendRequest('/api/update', data, 'POST').then(() => {
                 location.reload();
             });
         });
@@ -203,12 +214,21 @@ function setUpFoodButtons(currentDate) {
 
 function setUpSideButtons(currentDate) {
     const generateButton = document.getElementById('generateButton');
+    const exportButton = document.getElementById('exportButton');
     generateButton.addEventListener('click', function() {
         const data = {
             date: formatDate(currentDate),
         };
-        sendPostRequest('/api/generate', data).then(() => {
+        sendRequest('/api/generate', data, 'POST').then(() => {
             location.reload();
         });
     });
+    exportButton.addEventListener('click', function(){
+        const data = {
+            date: formatDate(currentDate),
+        }
+        sendRequest('/api/export', data, 'GET').then(() => {
+
+        })
+    })
 }
