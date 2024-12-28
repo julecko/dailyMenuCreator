@@ -17,3 +17,32 @@
 /.github export-ignore
 CHANGELOG.md export-ignore
 .styleci.yml export-ignore
+
+# Ignore prebuilt Laravel files and folders
+/vendor/* export-ignore
+/node_modules/* export-ignore
+/public/storage/* export-ignore
+/storage/*.key export-ignore
+/.env export-ignore
+/.env.* export-ignore
+/.phpunit.result.cache export-ignore
+/.vscode/ export-ignore
+/.idea/ export-ignore
+/.github/ export-ignore
+/tests/ export-ignore
+
+# Ignore Laravel kernel files
+/app/Console/Kernel.php export-ignore
+/app/Exceptions/Kernel.php export-ignore
+
+# Ignore generated application cache files
+/bootstrap/cache/* export-ignore
+
+# Ignore configuration files
+/config/* export-ignore
+
+# Ignore Laravel middleware files
+/app/Http/Middleware/* export-ignore
+
+# Ignore Laravel service provider files
+/app/Providers/* export-ignore
