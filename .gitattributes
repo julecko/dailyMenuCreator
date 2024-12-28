@@ -18,31 +18,31 @@
 CHANGELOG.md export-ignore
 .styleci.yml export-ignore
 
-# Ignore prebuilt Laravel files and folders
-/vendor/* export-ignore
-/node_modules/* export-ignore
-/public/storage/* export-ignore
-/storage/*.key export-ignore
-/.env export-ignore
-/.env.* export-ignore
-/.phpunit.result.cache export-ignore
-/.vscode/ export-ignore
-/.idea/ export-ignore
-/.github/ export-ignore
-/tests/ export-ignore
+# Treat prebuilt Laravel files and folders as vendored
+/vendor/* linguist-vendored
+/node_modules/* linguist-vendored
+/public/storage/* linguist-vendored
+/storage/*.key linguist-vendored
+/.env linguist-vendored
+/.env.* linguist-vendored
+/.phpunit.result.cache linguist-vendored
+/.vscode/ linguist-vendored
+/.idea/ linguist-vendored
+/.github/ linguist-vendored
+/tests/ linguist-vendored
 
-# Ignore Laravel kernel files
-/app/Console/Kernel.php export-ignore
-/app/Exceptions/Kernel.php export-ignore
+# Treat Laravel kernel files as vendored
+/app/Console/Kernel.php linguist-vendored
+/app/Exceptions/Kernel.php linguist-vendored
 
-# Ignore generated application cache files
-/bootstrap/cache/* export-ignore
+# Treat generated application cache files as vendored
+/bootstrap/cache/* linguist-vendored
 
-# Ignore configuration files
-/config/* export-ignore
+# Treat configuration files as vendored
+/config/* linguist-vendored
 
-# Ignore Laravel middleware files
-/app/Http/Middleware/* export-ignore
+# Treat Laravel middleware files as vendored
+/app/Http/Middleware/* linguist-vendored
 
-# Ignore Laravel service provider files
-/app/Providers/* export-ignore
+# Treat Laravel service provider files as vendored
+/app/Providers/* linguist-vendored
